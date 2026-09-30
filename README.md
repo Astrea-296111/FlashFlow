@@ -77,7 +77,7 @@ docker compose up --build -d
 curl --fail http://localhost:8080/actuator/health
 ```
 
-Java 21 + Docker：`./mvnw -B spotless:check verify` 启动 Testcontainers 验证；重压测由 benchmark 工作流手动触发。当前环境无 Docker daemon，完整 Compose、镜像构建与远端 Actions 尚未实测；本次验收使用同版本原生中间件。
+Java 21 + Docker：`./mvnw -B spotless:check verify` 启动 Testcontainers 验证；重压测由 benchmark 工作流手动触发。当前环境无 Docker daemon，完整 Compose 运行尚未实测；远端 Actions 已通过测试、打包、Compose config 与镜像构建；本次验收使用同版本原生中间件。
 
 管理账号 admin，默认演示密码 local-admin-only；按 .env.example 修改配置。Swagger `http://localhost:8080/swagger-ui/index.html`；API 8080、Worker Actuator 8081。登录 POST /api/v1/auth/login 后使用 Bearer token。创建活动/票档并 warm，再 POST /api/v1/seckill/{skuId}，轮询 GET /api/v1/seckill/result/{reservationId}，最后用 orderNo 模拟支付。完整请求与权限见 [API 手册](docs/08-api-and-runbook.md)。
 
@@ -94,9 +94,9 @@ Java 21 + Docker：`./mvnw -B spotless:check verify` 启动 Testcontainers 验�
 
 ## Limitations 与 Roadmap
 
-非生产 benchmark；无真实支付与真实出票供应商；单 Redis、单 Broker，无 Redis Cluster 验证，无分片、无多 API 实例实验。无持久高可用或百万用户结论。模拟支付使用数据库记录。Redis 丢失状态采取失败关闭，活跃 SKU 不允许盲目预热。库存回补依赖维护任务，长期故障需人工审计。市场样本日期与覆盖限制已明确记录。完整 Docker 启动和远端 CI 是尚待验证的交付项。
+非生产 benchmark；无真实支付与真实出票供应商；单 Redis、单 Broker，无 Redis Cluster 验证，无分片、无多 API 实例实验。无持久高可用或百万用户结论。模拟支付使用数据库记录。Redis 丢失状态采取失败关闭，活跃 SKU 不允许盲目预热。库存回补依赖维护任务，长期故障需人工审计。市场样本日期与覆盖限制已明确记录。完整 Docker Compose 启动仍待验证；GitHub CI 已通过。
 
-后续先验证 Compose/CI，再进行多 API 实例、真实 Broker 网络故障、Redis 重启、持续成功订单负载和热门 SKU 的持久化容量实验。不开启无证据的生产级承诺。
+后续先验证完整 Compose 运行，再进行多 API 实例、真实 Broker 网络故障、Redis 重启、持续成功订单负载和热门 SKU 的持久化容量实验。不开启无证据的生产级承诺。
 
 设计参考及依赖说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 

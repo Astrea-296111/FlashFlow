@@ -6,7 +6,7 @@
 
 ## 未完成或未验证
 
-GitHub 公开仓库已创建并上传完整文件；远端 CI 已触发，最终结果以 Actions 为准。原始开发提交历史由 Release 附件 bundle 保留。环境缺少 Docker daemon，Compose 和镜像构建未实测。无真实支付、Cluster、分片、多实例、高可用、真实 Broker 网络断链测试。版本 v1.0.0 仅为预期发布版本。
+GitHub 公开仓库已创建并上传完整文件；远端 CI 已通过（运行 #2，36724535673），包含测试、打包、Compose config 与镜像构建。原始开发提交历史由 Release 附件 bundle 保留。本地环境缺少 Docker daemon；远端 CI 已完成 Compose config 与镜像构建，完整 Compose 运行未实测。无真实支付、Cluster、分片、多实例、高可用、真实 Broker 网络断链测试。版本 v1.0.0 仅为预期发布版本。
 
 ## 技术栈与验收
 
@@ -50,7 +50,7 @@ Java 21 / Spring Boot / MySQL / Redis Lua / RocketMQ / Micrometer / k6
 - 构建 reservation 终态、业务幂等与库存释放 outbox，验证真实 Broker 额外 20 次重复投递只创建 1 单；Worker 停机时积压 20 个请求，恢复后约 12.93 秒全部落库（含 JVM 启动），并通过发送失败补偿及支付/关单竞争测试。
 - 建立 42 项单元与真实 MySQL/Redis 集成测试，提供 k6 原始证据、Actuator 指标、Grafana 配置及 CI 工作流；复现并修复外键共享锁升级死锁和测试 Redis 隔离问题。
 
-所有数字仅来自 [压测报告](docs/06-benchmark-report.md) 与 [故障实验](docs/07-failure-experiments.md)。Docker Compose、远端 CI 和公网部署尚未验证，不写“已部署生产”或“CI 已通过”。面试主线：RepoPilot 展示 AI Agent 与评测工程，FlashFlow 展示 Java 交易正确性、一致性与性能分析。根据篇幅可保留前三条；若更强调正确性，可将性能条目的完整数字留到面试。
+所有数字仅来自 [压测报告](docs/06-benchmark-report.md) 与 [故障实验](docs/07-failure-experiments.md)。完整 Docker Compose 运行与公网服务部署尚未验证；远端 CI 已通过，不写“已部署生产”或“CI 已通过”。面试主线：RepoPilot 展示 AI Agent 与评测工程，FlashFlow 展示 Java 交易正确性、一致性与性能分析。根据篇幅可保留前三条；若更强调正确性，可将性能条目的完整数字留到面试。
 
 ## 二十个重点追问
 
@@ -58,7 +58,7 @@ baseline 意义、条件更新、业务唯一键、Lua 原子性、Cluster key�
 
 ## Roadmap
 
-完成 GitHub 发布与 CI；实跑 Compose；多实例/网络故障/Redis 恢复；稳态成功订单压测；针对热点 SKU 的持久化容量验证。
+实跑完整 Compose 业务链路；多实例/网络故障/Redis 恢复；稳态成功订单压测；针对热点 SKU 的持久化容量验证。
 
 ## 本轮复验状态
 
