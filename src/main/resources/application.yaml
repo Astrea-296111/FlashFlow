@@ -1,0 +1,71 @@
+spring:
+  application:
+    name: flashflow
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/flashflow?connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true}
+    username: ${DB_USER:flashflow}
+    password: ${DB_PASSWORD:local-development-only}
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:16}
+      connection-timeout: 3000
+      transaction-isolation: TRANSACTION_READ_COMMITTED
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      timeout: 2s
+  jackson:
+    time-zone: UTC
+  threads:
+    virtual:
+      enabled: ${VIRTUAL_THREADS:false}
+server:
+  port: ${PORT:8080}
+  tomcat:
+    threads:
+      max: 64
+    accept-count: 100
+  error:
+    include-message: never
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  metrics:
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true
+    tags:
+      application: flashflow
+      role: ${FLASHFLOW_ROLE:all}
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+flashflow:
+  role: ${FLASHFLOW_ROLE:all}
+  jwt-secret: ${JWT_SECRET:}
+  reservation-ttl: ${RESERVATION_TTL:120}
+  payment-ttl: ${PAYMENT_TTL:600}
+  demo: ${DEMO_ENABLED:false}
+  demo-admin-password: ${DEMO_ADMIN_PASSWORD:}
+  scheduling-enabled: ${SCHEDULING_ENABLED:true}
+  cache-enabled: ${CACHE_ENABLED:true}
+  rate-limit-enabled: ${RATE_LIMIT_ENABLED:true}
+  rate: ${RATE_LIMIT:2000}
+  burst: ${RATE_BURST:4000}
+  messaging:
+    enabled: ${MQ_ENABLED:true}
+    nameserver: ${MQ_NAMESERVER:localhost:9876}
+    order-topic: flashflow-orders
+    timeout-topic: flashflow-timeouts
+    consumer-group: flashflow-order-worker
+    timeout-group: flashflow-timeout-worker
+logging:
+  level:
+    com.astrea.flashflow: INFO
+    org.apache.rocketmq: WARN

@@ -1,0 +1,63 @@
+{
+  "execution_backend": "native",
+  "scenarios": {
+    "worker_outage": {
+      "acknowledged_while_stopped": 20,
+      "orders_while_stopped": 0,
+      "recovery_including_jvm_start_s": 12.928130931999476,
+      "broker_diff_before": 20,
+      "broker_diff_after": 0,
+      "audit": {
+        "sku_id": 26,
+        "total_stock": 20,
+        "available_stock": 0,
+        "orders": 20,
+        "active_orders": 20,
+        "oversell": 0,
+        "duplicate_orders": 0,
+        "conservation": true,
+        "db_nonnegative": true
+      }
+    },
+    "duplicate_delivery": {
+      "additional_broker_acknowledged": 20,
+      "orders_for_reservation": 1,
+      "audit": {
+        "sku_id": 26,
+        "total_stock": 20,
+        "available_stock": 0,
+        "orders": 20,
+        "active_orders": 20,
+        "oversell": 0,
+        "duplicate_orders": 0,
+        "conservation": true,
+        "db_nonnegative": true
+      }
+    },
+    "poison_messages": {
+      "quarantine_rows_present": 2,
+      "new_rows_added": 1,
+      "note": "Repeated identical null body retains one durable hash row by design"
+    },
+    "real_delayed_close": {
+      "delay_level": 2,
+      "nominal_delay_s": 5,
+      "scheduling_enabled": false,
+      "closed_after_probe_start_s": 7.623562737000611,
+      "order_no": "16d4cec0-3af6-4bab-9141-08c921ca385b",
+      "db_stock": 1,
+      "redis_release": "pending until maintenance restart",
+      "final_audit": {
+        "sku_id": 27,
+        "total_stock": 1,
+        "available_stock": 1,
+        "orders": 1,
+        "active_orders": 0,
+        "oversell": 0,
+        "duplicate_orders": 0,
+        "conservation": true,
+        "db_nonnegative": true
+      }
+    }
+  }
+}

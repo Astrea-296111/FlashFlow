@@ -1,0 +1,24 @@
+{
+  "aggregation": "median of the three per-run values, not a merged distribution",
+  "results": {
+    "baseline": {
+      "rps": 627.4579497849599,
+      "p50_ms": 56.377410499999996,
+      "p95_ms": 130.05710584999989,
+      "p99_ms": 206.18909654999993,
+      "accepted_entry_p99_ms": 266.07949759000024,
+      "completion_p95_ms": 236.78482666015623,
+      "completion_p99_ms": 290.84402099609395
+    },
+    "optimized": {
+      "rps": 1270.9271354609261,
+      "p50_ms": 15.060120000000001,
+      "p95_ms": 63.45158899999992,
+      "p99_ms": 205.77258792999925,
+      "accepted_entry_p99_ms": 239.9948081400001,
+      "completion_p95_ms": 3226.599475097656,
+      "completion_p99_ms": 3256.959548339844
+    }
+  },
+  "validated_six_runs": true
+}

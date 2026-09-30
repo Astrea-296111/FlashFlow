@@ -1,0 +1,83 @@
+[
+  {
+    "repo": "macrozheng/mall",
+    "branch": "master",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/macrozheng/mall/master/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 13541,
+    "sha256": "e387ff537c8d51b4a6a165a73198a560f92725f0d3d598d3488bdbd41d99f7d7"
+  },
+  {
+    "repo": "qiurunze123/miaosha",
+    "branch": "master",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/qiurunze123/miaosha/master/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 5761,
+    "sha256": "7d8952e73ac0ff78de52d0598634bf95e3617db505c40fb021947864cf21491f"
+  },
+  {
+    "repo": "hzcforever/Seconds-Kill",
+    "branch": "master",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/hzcforever/Seconds-Kill/master/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 18034,
+    "sha256": "0f135b61700bf398b3ec2e25018d864c11278cc74f88e8f79f96deecffed933e"
+  },
+  {
+    "repo": "apache/rocketmq",
+    "branch": "develop",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/apache/rocketmq/develop/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 12185,
+    "sha256": "059527d7884b317b455549e6c62cdb96b69d2710a981fc6ef88d4f79b1f3b28f"
+  },
+  {
+    "repo": "redisson/redisson",
+    "branch": "master",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/redisson/redisson/master/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 7241,
+    "sha256": "cf7aed5fddca10c363b793821ea227c2f02896186df91ebcc57caa1bc774562d"
+  },
+  {
+    "repo": "alibaba/Sentinel",
+    "branch": "1.8",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/alibaba/Sentinel/1.8/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 10638,
+    "sha256": "b073d1573708479c36e6a89e39acb7369ac44f64ecd012e3f39d63744f7b8497"
+  },
+  {
+    "repo": "xuxueli/xxl-job",
+    "branch": "master",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/xuxueli/xxl-job/master/README.md",
+    "accessed_at": "2026-09-30",
+    "bytes": 47752,
+    "sha256": "e5c15459e162be6e53c00c0e9b581f4b5401dbb8b5875f0d26f476ca09c82b72"
+  },
+  {
+    "repo": "macrozheng/mall",
+    "branch": "master",
+    "path": "mall-portal/src/main/java/com/macro/mall/portal/service/impl/OmsPortalOrderServiceImpl.java",
+    "url": "https://raw.githubusercontent.com/macrozheng/mall/master/mall-portal/src/main/java/com/macro/mall/portal/service/impl/OmsPortalOrderServiceImpl.java",
+    "accessed_at": "2026-09-30",
+    "bytes": 34509,
+    "sha256": "00479ceee85ed66896256a49d551da078b6ea2371f1f7791a0dad0c5d4c74e18"
+  },
+  {
+    "repo": "alibaba/Sentinel",
+    "branch": "1.8",
+    "path": "sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRuleManager.java",
+    "url": "https://raw.githubusercontent.com/alibaba/Sentinel/1.8/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRuleManager.java",
+    "accessed_at": "2026-09-30",
+    "bytes": 5958,
+    "sha256": "81e7d9b004f5d9b45fa63b7a14120b1815bede9b8cea30353c8bc2493a51ab15"
+  }
+]

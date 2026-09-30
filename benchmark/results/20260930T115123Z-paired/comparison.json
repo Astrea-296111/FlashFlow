@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "baseline",
+    "repeat": 1,
+    "rps": 514.0900694075025,
+    "request_count": 3000,
+    "p50_ms": 65.0498735,
+    "p95_ms": 169.2008105999998,
+    "p99_ms": 335.3891226499998,
+    "unexpected_rate": 0,
+    "accepted": 100,
+    "accepted_entry_p99_ms": 559.6157726800001,
+    "completion_p95_ms": 493.79421386718747,
+    "completion_p99_ms": 573.4928564453126,
+    "post_load_convergence_s": 0,
+    "audit": {
+      "sku_id": 2,
+      "total_stock": 100,
+      "available_stock": 0,
+      "orders": 100,
+      "active_orders": 100,
+      "oversell": 0,
+      "duplicate_orders": 0,
+      "conservation": true,
+      "db_nonnegative": true,
+      "accepted_requests": 100,
+      "all_accepted_committed": true,
+      "load_exit_code": 0
+    }
+  },
+  {
+    "mode": "optimized",
+    "repeat": 1,
+    "rps": 1826.2318615090362,
+    "request_count": 3000,
+    "p50_ms": 13.025686499999999,
+    "p95_ms": 65.8184661,
+    "p99_ms": 116.53426831999957,
+    "unexpected_rate": 0,
+    "accepted": 100,
+    "accepted_entry_p99_ms": 184.60155563000004,
+    "completion_p95_ms": 41549.82810058594,
+    "completion_p99_ms": 41716.79466796875,
+    "post_load_convergence_s": 40.06331176757813,
+    "audit": {
+      "sku_id": 3,
+      "total_stock": 100,
+      "available_stock": 8,
+      "orders": 92,
+      "active_orders": 92,
+      "oversell": 0,
+      "duplicate_orders": 0,
+      "conservation": true,
+      "db_nonnegative": true,
+      "accepted_requests": 100,
+      "all_accepted_committed": false,
+      "load_exit_code": 0,
+      "redis_stock": 0,
+      "redis_matches_db": false
+    }
+  }
+]

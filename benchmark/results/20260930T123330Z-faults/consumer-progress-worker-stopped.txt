@@ -1,0 +1,256 @@
+19:33:30,775 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.3.5-rocketmq
+19:33:30,830 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [rmq.logback-test.xml]
+19:33:30,831 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [rmq.logback.xml]
+19:33:30,835 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - Found resource [rmq.proxy.logback.xml] at [file:/workspace/scratch/50c9fa75929f/.tools/rocketmq-all-5.3.3-bin-release/conf/rmq.proxy.logback.xml]
+19:33:30,836 |-WARN in org.apache.rocketmq.common.logging.DefaultJoranConfiguratorExt@be64738 - Resource [rmq.proxy.logback.xml] occurs multiple times on the classpath.
+19:33:30,836 |-WARN in org.apache.rocketmq.common.logging.DefaultJoranConfiguratorExt@be64738 - Resource [rmq.proxy.logback.xml] occurs at [file:/workspace/scratch/50c9fa75929f/.tools/rocketmq-all-5.3.3-bin-release/conf/rmq.proxy.logback.xml]
+19:33:30,836 |-WARN in org.apache.rocketmq.common.logging.DefaultJoranConfiguratorExt@be64738 - Resource [rmq.proxy.logback.xml] occurs at [jar:file:/workspace/scratch/50c9fa75929f/.tools/rocketmq-all-5.3.3-bin-release/lib/rocketmq-proxy-5.3.3.jar!/rmq.proxy.logback.xml]
+19:33:31,049 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Registering a new ReconfigureOnChangeTask ReconfigureOnChangeTask(born:1790771611049)
+19:33:31,050 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Will scan for changes in [file:/workspace/scratch/50c9fa75929f/.tools/rocketmq-all-5.3.3-bin-release/conf/rmq.proxy.logback.xml] 
+19:33:31,050 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+19:33:31,077 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProxyAppender_inner]
+19:33:31,077 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,127 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3ba9ad43 - Will use gz compression
+19:33:31,133 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,157 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/proxy.log
+19:33:31,157 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/proxy.log]
+19:33:31,158 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProxyAppender]
+19:33:31,158 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,160 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyAppender]
+19:33:31,160 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyAppender] - Attaching appender named [RocketmqProxyAppender_inner] to AsyncAppender.
+19:33:31,160 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyAppender] - Setting discardingThreshold to 51
+19:33:31,160 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProxyWatermarkAppender_inner]
+19:33:31,160 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,161 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@49d904ec - Will use gz compression
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyWatermarkAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/proxy_watermark.log
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyWatermarkAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/proxy_watermark.log]
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProxyWatermarkAppender]
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyWatermarkAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyWatermarkAppender]
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyWatermarkAppender] - Attaching appender named [RocketmqProxyWatermarkAppender_inner] to AsyncAppender.
+19:33:31,162 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProxyWatermarkAppender] - Setting discardingThreshold to 51
+19:33:31,163 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [DefaultAppender]
+19:33:31,163 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,163 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@48e4374 - Will use gz compression
+19:33:31,164 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,164 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[DefaultAppender] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///broker_default.log
+19:33:31,164 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[DefaultAppender] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///broker_default.log]
+19:33:31,164 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerAppender_inner]
+19:33:31,164 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,165 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3d680b5a - Will use gz compression
+19:33:31,165 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqBrokerAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///broker.log
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqBrokerAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///broker.log]
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerAppender]
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerAppender]
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerAppender] - Attaching appender named [RocketmqBrokerAppender_inner] to AsyncAppender.
+19:33:31,166 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerAppender] - Setting discardingThreshold to 51
+19:33:31,167 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProtectionAppender_inner]
+19:33:31,167 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,167 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@4b5d6a01 - Will use gz compression
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProtectionAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///protection.log
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProtectionAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///protection.log]
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProtectionAppender]
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProtectionAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionAppender]
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionAppender] - Attaching appender named [RocketmqProtectionAppender_inner] to AsyncAppender.
+19:33:31,168 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionAppender] - Setting discardingThreshold to 51
+19:33:31,169 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqWaterMarkAppender_inner]
+19:33:31,169 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,170 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@4a22f9e2 - Will use gz compression
+19:33:31,170 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqWaterMarkAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///watermark.log
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqWaterMarkAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///watermark.log]
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqWaterMarkAppender]
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqWaterMarkAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkAppender]
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkAppender] - Attaching appender named [RocketmqWaterMarkAppender_inner] to AsyncAppender.
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkAppender] - Setting discardingThreshold to 51
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreAppender_inner]
+19:33:31,171 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,173 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3c419631 - Will use gz compression
+19:33:31,174 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStoreAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///store.log
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStoreAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///store.log]
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreAppender]
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreAppender]
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreAppender] - Attaching appender named [RocketmqStoreAppender_inner] to AsyncAppender.
+19:33:31,175 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreAppender] - Setting discardingThreshold to 51
+19:33:31,176 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRemotingAppender_inner]
+19:33:31,176 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,176 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@418e7838 - Will use gz compression
+19:33:31,177 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,177 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqRemotingAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///remoting.log
+19:33:31,177 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqRemotingAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///remoting.log]
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRemotingAppender]
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRemotingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingAppender]
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingAppender] - Attaching appender named [RocketmqRemotingAppender_inner] to AsyncAppender.
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingAppender] - Setting discardingThreshold to 51
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreErrorAppender_inner]
+19:33:31,178 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,179 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@61230f6a - Will use gz compression
+19:33:31,179 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStoreErrorAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///storeerror.log
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStoreErrorAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///storeerror.log]
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreErrorAppender]
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreErrorAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorAppender]
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorAppender] - Attaching appender named [RocketmqStoreErrorAppender_inner] to AsyncAppender.
+19:33:31,180 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorAppender] - Setting discardingThreshold to 51
+19:33:31,181 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTransactionAppender_inner]
+19:33:31,181 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,181 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3c130745 - Will use gz compression
+19:33:31,182 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,182 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqTransactionAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///transaction.log
+19:33:31,182 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqTransactionAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///transaction.log]
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTransactionAppender]
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTransactionAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionAppender]
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionAppender] - Attaching appender named [RocketmqTransactionAppender_inner] to AsyncAppender.
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionAppender] - Setting discardingThreshold to 51
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRebalanceLockAppender_inner]
+19:33:31,183 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,184 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@cd3fee8 - Will use gz compression
+19:33:31,184 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqRebalanceLockAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///lock.log
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqRebalanceLockAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///lock.log]
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRebalanceLockAppender]
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRebalanceLockAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockAppender]
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockAppender] - Attaching appender named [RocketmqRebalanceLockAppender_inner] to AsyncAppender.
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockAppender] - Setting discardingThreshold to 51
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqFilterAppender_inner]
+19:33:31,185 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,186 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3e2e18f2 - Will use gz compression
+19:33:31,186 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqFilterAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///filter.log
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqFilterAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///filter.log]
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqFilterAppender]
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqFilterAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqFilterAppender]
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqFilterAppender] - Attaching appender named [RocketmqFilterAppender_inner] to AsyncAppender.
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqFilterAppender] - Setting discardingThreshold to 51
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStatsAppender]
+19:33:31,187 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,188 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@470f1802 - Will use gz compression
+19:33:31,188 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,188 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStatsAppender] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///stats.log
+19:33:31,188 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqStatsAppender] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///stats.log]
+19:33:31,189 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqCommercialAppender]
+19:33:31,189 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,189 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@63021689 - Will use gz compression
+19:33:31,190 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,190 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqCommercialAppender] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///commercial.log
+19:33:31,190 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqCommercialAppender] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///commercial.log]
+19:33:31,190 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqPopAppender_inner]
+19:33:31,190 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,191 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@703580bf - No compression will be used
+19:33:31,191 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,195 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqPopAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/pop.log
+19:33:31,195 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqPopAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs/pop.log]
+19:33:31,195 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProxyMetricsAppender]
+19:33:31,195 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,196 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@3e92efc3 - Will use gz compression
+19:33:31,196 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,197 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyMetricsAppender] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///proxy_metric.log
+19:33:31,197 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqProxyMetricsAppender] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///proxy_metric.log]
+19:33:31,197 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqAuthAuditAppender_inner]
+19:33:31,197 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender]
+19:33:31,198 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.FixedWindowRollingPolicy@1622f1b - Will use gz compression
+19:33:31,198 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,199 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqAuthAuditAppender_inner] - Active log file name: /workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///auth_audit.log
+19:33:31,199 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.rolling.RollingFileAppender[RocketmqAuthAuditAppender_inner] - File property is set to [/workspace/scratch/50c9fa75929f/.tools/logs/rocketmqlogs///auth_audit.log]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqAuthAuditAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqAuthAuditAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditAppender] - Attaching appender named [RocketmqAuthAuditAppender_inner] to AsyncAppender.
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditAppender] - Setting discardingThreshold to 51
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqPopAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqPopAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopAppender]
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopAppender] - Attaching appender named [RocketmqPopAppender_inner] to AsyncAppender.
+19:33:31,200 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopAppender] - Setting discardingThreshold to 51
+19:33:31,201 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [STDOUT]
+19:33:31,201 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.ConsoleAppender]
+19:33:31,214 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqBroker] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqBroker] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerAppender] to Logger[RocketmqBroker]
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqProtection] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqProtection] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProtectionAppender] to Logger[RocketmqProtection]
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqWaterMark] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqWaterMark] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqWaterMarkAppender] to Logger[RocketmqWaterMark]
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqCommon] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqCommon] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerAppender] to Logger[RocketmqCommon]
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStore] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStore] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreAppender] to Logger[RocketmqStore]
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStoreError] to INFO
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStoreError] to false
+19:33:31,215 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreErrorAppender] to Logger[RocketmqStoreError]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqTransaction] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqTransaction] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTransactionAppender] to Logger[RocketmqTransaction]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqRebalanceLock] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqRebalanceLock] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRebalanceLockAppender] to Logger[RocketmqRebalanceLock]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqRemoting] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqRemoting] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRemotingAppender] to Logger[RocketmqRemoting]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStats] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStats] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStatsAppender] to Logger[RocketmqStats]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqCommercial] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqCommercial] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqCommercialAppender] to Logger[RocketmqCommercial]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqFilter] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqFilter] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqFilterAppender] to Logger[RocketmqFilter]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqConsole] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqConsole] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [STDOUT] to Logger[RocketmqConsole]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqPop] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqPop] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqPopAppender] to Logger[RocketmqPop]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqProxy] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqProxy] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyAppender] to Logger[RocketmqProxy]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqProxyWatermark] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqProxyWatermark] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyWatermarkAppender] to Logger[RocketmqProxyWatermark]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyMetricsAppender] to Logger[io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry.exporter.logging.LoggingMetricExporter] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.opentelemetry.exporter.logging.LoggingMetricExporter] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProxyMetricsAppender] to Logger[io.opentelemetry.exporter.logging.LoggingMetricExporter]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqAuthAudit] to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqAuthAudit] to false
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqAuthAuditAppender] to Logger[RocketmqAuthAudit]
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+19:33:31,216 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [DefaultAppender] to Logger[ROOT]
+19:33:31,217 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.DefaultProcessor@72a7c7e0 - End of configuration.
+19:33:31,220 |-INFO in org.apache.rocketmq.common.logging.JoranConfiguratorExt@2e4b8173 - Registering current configuration as safe fallback point
+
+#Topic                                                            #Broker Name                      #QID  #Broker Offset        #Consumer Offset      #Diff                #Inflight           #LastTime
+%RETRY%flashflow-order-worker                                     broker-a                          0     95                    95                    0                    0                    2026-09-30 18:53:12
+flashflow-orders                                                  broker-a                          0     118                   116                   2                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          1     130                   127                   3                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          2     137                   136                   1                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          3     134                   133                   1                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          4     118                   115                   3                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          5     118                   114                   4                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          6     118                   117                   1                    0                    2026-09-30 19:30:54
+flashflow-orders                                                  broker-a                          7     131                   126                   5                    0                    2026-09-30 19:30:54
+
+Consume TPS: 0.00
+Consume Diff Total: 20
+Consume Inflight Total: 0

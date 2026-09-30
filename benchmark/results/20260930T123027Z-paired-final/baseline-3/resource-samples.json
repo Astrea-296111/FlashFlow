@@ -1,0 +1,158 @@
+{
+  "interval_s": 0.5,
+  "note": "Actuator process_cpu_usage is a sampled recent CPU ratio, not instantaneous peak or host utilization; sampling and observer overhead apply equally to both variants.",
+  "samples": [
+    {
+      "epoch_ms": 1790771449920.1829,
+      "api": {
+        "process_cpu_usage": 0.0,
+        "jvm_memory_used_bytes": 106943968.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 22.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 25.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.1125,
+        "jvm_memory_used_bytes": 96793184.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771450466.492,
+      "api": {
+        "process_cpu_usage": 0.23125,
+        "jvm_memory_used_bytes": 64652888.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 24.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 26.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.01,
+        "jvm_memory_used_bytes": 97841760.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771451015.635,
+      "api": {
+        "process_cpu_usage": 0.3325,
+        "jvm_memory_used_bytes": 70026352.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 24.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 27.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.008333333333333333,
+        "jvm_memory_used_bytes": 98890336.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771451585.9595,
+      "api": {
+        "process_cpu_usage": 0.3645833333333333,
+        "jvm_memory_used_bytes": 79473832.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 22.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 28.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.04,
+        "jvm_memory_used_bytes": 99938912.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771452145.552,
+      "api": {
+        "process_cpu_usage": 0.28,
+        "jvm_memory_used_bytes": 87353368.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 22.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 29.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.010416666666666666,
+        "jvm_memory_used_bytes": 100987488.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771452687.1328,
+      "api": {
+        "process_cpu_usage": 0.32083333333333336,
+        "jvm_memory_used_bytes": 75957184.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 22.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 30.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.015,
+        "jvm_memory_used_bytes": 102036064.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771453236.4392,
+      "api": {
+        "process_cpu_usage": 0.25,
+        "jvm_memory_used_bytes": 85346664.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 22.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 31.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.01875,
+        "jvm_memory_used_bytes": 104133216.0,
+        "hikaricp_connections_active": 1.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    },
+    {
+      "epoch_ms": 1790771453765.989,
+      "api": {
+        "process_cpu_usage": 0.19583333333333333,
+        "jvm_memory_used_bytes": 71364192.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 32.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.0075,
+        "jvm_memory_used_bytes": 105181792.0,
+        "hikaricp_connections_active": 1.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 97.0,
+        "jvm_gc_pause_seconds_count": 2.0
+      }
+    }
+  ]
+}

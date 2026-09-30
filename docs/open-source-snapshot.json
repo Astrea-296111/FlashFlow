@@ -1,0 +1,81 @@
+[
+  {
+    "full_name": "macrozheng/mall",
+    "stargazers_count": 84851,
+    "default_branch": "master",
+    "pushed_at": "2026-09-15T02:34:44Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "full_name": "qiurunze123/miaosha",
+    "stargazers_count": 26591,
+    "default_branch": "master",
+    "pushed_at": "2025-04-18T06:23:43Z",
+    "license": null
+  },
+  {
+    "full_name": "hzcforever/Seconds-Kill",
+    "stargazers_count": 83,
+    "default_branch": "master",
+    "pushed_at": "2025-07-12T01:51:26Z",
+    "license": null
+  },
+  {
+    "full_name": "apache/rocketmq",
+    "stargazers_count": 22624,
+    "default_branch": "develop",
+    "pushed_at": "2026-09-29T11:49:42Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "full_name": "redisson/redisson",
+    "stargazers_count": 24406,
+    "default_branch": "master",
+    "pushed_at": "2026-09-29T09:40:55Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "full_name": "alibaba/Sentinel",
+    "stargazers_count": 23147,
+    "default_branch": "1.8",
+    "pushed_at": "2026-05-27T08:58:51Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "full_name": "xuxueli/xxl-job",
+    "stargazers_count": 30602,
+    "default_branch": "master",
+    "pushed_at": "2026-07-21T16:01:12Z",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    }
+  }
+]

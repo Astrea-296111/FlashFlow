@@ -1,0 +1,397 @@
+[
+  {
+    "kind": "JD",
+    "title": "快手 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/451858",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "Spring Cloud"
+    ],
+    "body_sha256": "4df882c3dbaac821d82cf2619b617d419a14f09660d46459f598bb6e91356f10",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "字节后端",
+    "url": "https://www.nowcoder.com/jobs/detail/447229",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Spring Cloud"
+    ],
+    "body_sha256": "3bf4750f79375c642452ba6045dddad99fe3bf50ad329985a7d0b7c14c3a1424",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "携程 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/463591",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Java并发",
+      "JVM"
+    ],
+    "body_sha256": "041abe25e952e49652bcfedb754ccf604437e8ca0f6383e9cb61beca73190d36",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "思朗 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/462971",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "Spring Cloud",
+      "AI/RAG"
+    ],
+    "body_sha256": "48a5625aa1dfb12ae87fd4cdc2c0ae9eae633035002eaabe646d257036150ab9",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "贝壳研发",
+    "url": "https://www.nowcoder.com/jobs/detail/462880",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "d812f9c8db07688254a41e97f4fad560895f315a32c41eb8e1e14ce46cc2a7c4",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "携程全栈",
+    "url": "https://www.nowcoder.com/jobs/detail/463589",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "1a2f7f03b28b4e5b5eb6dbd4ad9a38600be160f7e2caa1903fd83012dcede8af",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "中国电子云后端",
+    "url": "https://www.nowcoder.com/jobs/detail/463602",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [],
+    "body_sha256": "246a8f4fd24b62c0bbb5a26a149bda1b99f799489e0763848ce979bc08225dee",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "JD",
+    "title": "同花顺 Java 实习",
+    "url": "https://www.nowcoder.com/jobs/detail/431595",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "Java并发"
+    ],
+    "body_sha256": "e52ae15f2502e6c2c19136d5ce15cda9810313092b627a5ec57bb90f2c3170da",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "字节后端15",
+    "url": "https://www.nowcoder.com/discuss/930296009521889280",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "dc84aca4324f1c1a7418297eab003b6ece593a614a897534dd0072f3e76aa19b",
+    "visibility": "public-excerpt-paywall",
+    "date_mentions": [
+      "2026 年 9 月 3 日",
+      "2026 年 9 月 2 日"
+    ]
+  },
+  {
+    "kind": "interview",
+    "title": "携程后端01",
+    "url": "https://www.nowcoder.com/discuss/929911457448230912",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "body_sha256": "e498d612241f2473378d1e342ef821102c9f353f7c0fc16edb8e5d62d44346b9",
+    "visibility": "public-excerpt-paywall",
+    "date_mentions": [
+      "2026 年 9 月 11 日",
+      "2026 年 8 月 18 日",
+      "2026 年 8 月 15 日",
+      "2026 年 6 月 5 日",
+      "2026 年 5 月 30 日",
+      "2026 年 5 月 1 日",
+      "2026 年 4 月 30 日"
+    ]
+  },
+  {
+    "kind": "interview",
+    "title": "腾讯后端15",
+    "url": "https://www.nowcoder.com/discuss/931015079770746880",
+    "accessed_at": "2026-09-30",
+    "status": "blocked",
+    "terms": []
+  },
+  {
+    "kind": "interview",
+    "title": "后端全栈复盘",
+    "url": "https://www.nowcoder.com/discuss/932058602422956032",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "body_sha256": "b0789f0dc6ad2e9363872eeaea331944394384e768f7d24cfd098f88b9ab7837",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "深轻二面",
+    "url": "https://www.nowcoder.com/discuss/931897300308226048",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [],
+    "body_sha256": "4c15ecf915974ab60c789467706912b4a23051c776959c551d95187a056c3340",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "实在智能 Java",
+    "url": "https://www.nowcoder.com/feed/main/detail/06595dc27127476c9b544d20eb99cfe8",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Java并发",
+      "Docker"
+    ],
+    "body_sha256": "e687e8d50c9bf59ea5f2ea414bb4a0bb33ea96f3928af344953507716a15176d",
+    "visibility": "public-body",
+    "date_mentions": [
+      "2026.7.9"
+    ]
+  },
+  {
+    "kind": "interview",
+    "title": "小米 Java",
+    "url": "https://www.nowcoder.com/feed/main/detail/ec9340e947aa4613a284688e00ec4f5d",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "309cbf7823a0e666548f978523d07b16af78201fc046197d0bfa803e185304f9",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "字节实习 Java",
+    "url": "https://www.nowcoder.com/feed/main/detail/c1448c65b644471e9db872852b4978ce",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis"
+    ],
+    "body_sha256": "4ba3f52ed5bf6bd6a87331b850c7b26381468e94b0627cb52ef40e68c65e896b",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "趣链 Java",
+    "url": "https://www.nowcoder.com/discuss/929042072709918720",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "AI/RAG"
+    ],
+    "body_sha256": "daeb0333577881df954f89aa7b9002aac1e65e994c756e7d157677c88f66b3a6",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "字节后端08",
+    "url": "https://www.nowcoder.com/discuss/922664655749648384",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "body_sha256": "b2e575371e8e6283327a1ddf78eac051f037fc0b6953cee1367fe2135349a79a",
+    "visibility": "public-excerpt-paywall",
+    "date_mentions": [
+      "2026 年 4 月 26 日",
+      "2026 年 4 月 24 日",
+      "2026 年 4 月 22 日",
+      "2026 年 4 月 21 日"
+    ]
+  },
+  {
+    "kind": "resume",
+    "title": "点评42",
+    "url": "https://www.nowcoder.com/feed/main/detail/59cf37e96a094e5298081a8f67fb9772",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Redis",
+      "AI/RAG"
+    ],
+    "body_sha256": "5003603146125813ae3b0c264f1ce6cd8aa9e29ade918c4411c3a8ae08a6755e",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "resume",
+    "title": "点评2",
+    "url": "https://www.nowcoder.com/feed/main/detail/18b2a788c36b4f708ad206522da0f0a3",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Redis",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "0c36b7104e4304894b931feacb8a0abdd5819d38835534569c6aa5870cf649ae",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "resume",
+    "title": "简历怎么写",
+    "url": "https://www.nowcoder.com/feed/main/detail/4634de77e8bf4e55ad15dbe46da07611",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "76d0fcc971218542551d29a09a1df7eabe8a71626d1c3394e264118db99042ec",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "resume",
+    "title": "点评11",
+    "url": "https://www.nowcoder.com/feed/main/detail/59239fbe7d69479c887b2f00c9cece81",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Java并发",
+      "AI/RAG"
+    ],
+    "body_sha256": "0316aad8a20e5faf2314b89eeccea232e8f6e96f3a84ff4cdfa2b8a17f384b19",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "resume",
+    "title": "点评9",
+    "url": "https://www.nowcoder.com/feed/main/detail/6ba4e496c91e41ff88f75bee9380b6f9",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MQ",
+      "AI/RAG"
+    ],
+    "body_sha256": "6bb2afa85e5b2a6576f5e92718701ccd43656bd0be7ccc5dda1547c1017e4b7d",
+    "visibility": "public-body",
+    "date_mentions": []
+  },
+  {
+    "kind": "interview",
+    "title": "浪潮 27届 Java 一面",
+    "url": "https://www.nowcoder.com/discuss/931582652442824704",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "visibility": "public-body",
+    "displayed_publication_date": "09-21 16:16 (year not printed)",
+    "event_date": "9.21; 27届招聘语境",
+    "terms": [
+      "MySQL",
+      "Spring Boot"
+    ],
+    "source_ref": "turn36view0",
+    "note": "项目真实性、分工与单点登录；没有深入传统技术题，全文已阅。Spring/MySQL 是作者准备但未被问到，不能计为实际考察。"
+  }
+]

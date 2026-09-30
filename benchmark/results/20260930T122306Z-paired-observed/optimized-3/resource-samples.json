@@ -1,0 +1,44 @@
+{
+  "interval_s": 0.5,
+  "note": "Actuator process_cpu_usage is a sampled recent CPU ratio, not instantaneous peak or host utilization; sampling and observer overhead apply equally to both variants.",
+  "samples": [
+    {
+      "epoch_ms": 1790771002618.0981,
+      "api": {
+        "process_cpu_usage": 0.0,
+        "jvm_memory_used_bytes": 78981728.0,
+        "hikaricp_connections_active": 15.0,
+        "hikaricp_connections_pending": 23.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 55.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.0,
+        "jvm_memory_used_bytes": 56139616.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 98.0,
+        "jvm_gc_pause_seconds_count": 4.0
+      }
+    },
+    {
+      "epoch_ms": 1790771003160.2058,
+      "api": {
+        "process_cpu_usage": 0.41041666666666665,
+        "jvm_memory_used_bytes": 114789464.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 57.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.025,
+        "jvm_memory_used_bytes": 57188192.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 98.0,
+        "jvm_gc_pause_seconds_count": 4.0
+      }
+    }
+  ]
+}

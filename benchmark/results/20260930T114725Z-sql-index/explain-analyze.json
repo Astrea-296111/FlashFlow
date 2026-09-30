@@ -1,0 +1,64 @@
+{
+  "rows": 100000,
+  "query": "EXPLAIN ANALYZE SELECT id FROM benchmark_order_scan WHERE status='WAIT_PAY' AND expire_at<='2026-09-30 12:00:00' ORDER BY expire_at LIMIT 100",
+  "before": [
+    {
+      "repeat": 1,
+      "wall_ms": 33.68433699870366,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=10001 rows=100) (actual time=27.7..27.7 rows=100 loops=1)\n    -> Sort: benchmark_order_scan.expire_at, limit input to 100 row(s) per chunk  (cost=10001 rows=100000) (actual time=27.7..27.7 rows=100 loops=1)\n        -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=10001 rows=100000) (actual time=0.189..27.4 rows=433 loops=1)\n            -> Table scan on benchmark_order_scan  (cost=10001 rows=100000) (actual time=0.158..20.2 rows=100000 loops=1)\n"
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "wall_ms": 46.936605000155396,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=10001 rows=100) (actual time=45.5..45.9 rows=100 loops=1)\n    -> Sort: benchmark_order_scan.expire_at, limit input to 100 row(s) per chunk  (cost=10001 rows=100000) (actual time=45.5..45.9 rows=100 loops=1)\n        -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=10001 rows=100000) (actual time=0.197..45.4 rows=433 loops=1)\n            -> Table scan on benchmark_order_scan  (cost=10001 rows=100000) (actual time=0.195..33.6 rows=100000 loops=1)\n"
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "wall_ms": 27.76673500011384,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=10001 rows=100) (actual time=26.8..26.8 rows=100 loops=1)\n    -> Sort: benchmark_order_scan.expire_at, limit input to 100 row(s) per chunk  (cost=10001 rows=100000) (actual time=26.8..26.8 rows=100 loops=1)\n        -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=10001 rows=100000) (actual time=0.117..26.7 rows=433 loops=1)\n            -> Table scan on benchmark_order_scan  (cost=10001 rows=100000) (actual time=0.115..19.4 rows=100000 loops=1)\n"
+        }
+      ]
+    }
+  ],
+  "after": [
+    {
+      "repeat": 1,
+      "wall_ms": 1.6884630003914936,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=92.3 rows=100) (actual time=0.057..0.127 rows=100 loops=1)\n    -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=92.3 rows=433) (actual time=0.0549..0.119 rows=100 loops=1)\n        -> Covering index range scan on benchmark_order_scan using idx_status_expire over (status = 'WAIT_PAY' AND expire_at <= '2026-09-30 12:00:00.000')  (cost=92.3 rows=433) (actual time=0.0321..0.0749 rows=100 loops=1)\n"
+        }
+      ]
+    },
+    {
+      "repeat": 2,
+      "wall_ms": 0.7340499996644212,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=92.3 rows=100) (actual time=0.0204..0.089 rows=100 loops=1)\n    -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=92.3 rows=433) (actual time=0.0201..0.0817 rows=100 loops=1)\n        -> Covering index range scan on benchmark_order_scan using idx_status_expire over (status = 'WAIT_PAY' AND expire_at <= '2026-09-30 12:00:00.000')  (cost=92.3 rows=433) (actual time=0.019..0.0599 rows=100 loops=1)\n"
+        }
+      ]
+    },
+    {
+      "repeat": 3,
+      "wall_ms": 2.1439200008899206,
+      "plan": [
+        {
+          "EXPLAIN": "-> Limit: 100 row(s)  (cost=92.3 rows=100) (actual time=0.022..0.989 rows=100 loops=1)\n    -> Filter: ((benchmark_order_scan.`status` = 'WAIT_PAY') and (benchmark_order_scan.expire_at <= TIMESTAMP'2026-09-30 12:00:00'))  (cost=92.3 rows=433) (actual time=0.0215..0.0944 rows=100 loops=1)\n        -> Covering index range scan on benchmark_order_scan using idx_status_expire over (status = 'WAIT_PAY' AND expire_at <= '2026-09-30 12:00:00.000')  (cost=92.3 rows=433) (actual time=0.0203..0.0696 rows=100 loops=1)\n"
+        }
+      ]
+    }
+  ],
+  "fixture_table": "benchmark_order_scan",
+  "note": "Index experiment only; not 100000 real application orders"
+}

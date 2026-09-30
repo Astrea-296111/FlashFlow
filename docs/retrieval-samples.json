@@ -1,0 +1,375 @@
+[
+  {
+    "kind": "JD",
+    "title": "快手 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/451858",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "Spring Cloud"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn22view0",
+    "chars": 598
+  },
+  {
+    "kind": "JD",
+    "title": "字节后端",
+    "url": "https://www.nowcoder.com/jobs/detail/447229?channel=npJobTab&deliverSource=1&pageSource=5001",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Spring Cloud"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn27view0",
+    "chars": 514
+  },
+  {
+    "kind": "JD",
+    "title": "携程 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/463591",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Java并发",
+      "JVM"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn18view0",
+    "chars": 517
+  },
+  {
+    "kind": "JD",
+    "title": "思朗 Java",
+    "url": "https://www.nowcoder.com/jobs/detail/462971?urlSource=sitemap",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "Spring Cloud",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn16view0",
+    "chars": 600
+  },
+  {
+    "kind": "JD",
+    "title": "贝壳研发",
+    "url": "https://www.nowcoder.com/jobs/detail/462880",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn10view0",
+    "chars": 681
+  },
+  {
+    "kind": "JD",
+    "title": "携程全栈",
+    "url": "https://www.nowcoder.com/jobs/detail/463589",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn14view0",
+    "chars": 1164
+  },
+  {
+    "kind": "JD",
+    "title": "中国电子云",
+    "url": "https://www.nowcoder.com/jobs/detail/463602",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn19view0",
+    "chars": 465
+  },
+  {
+    "kind": "JD",
+    "title": "同花顺实习",
+    "url": "https://www.nowcoder.com/jobs/detail/431595",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn13view0",
+    "chars": 376
+  },
+  {
+    "kind": "interview",
+    "title": "字节后端15",
+    "url": "https://api-cdn.nowcoder.com/discuss/930296009521889280",
+    "accessed_at": "2026-09-30",
+    "status": "blocked-or-partial",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn15view0",
+    "chars": 0
+  },
+  {
+    "kind": "interview",
+    "title": "携程后端01",
+    "url": "https://api-cdn.nowcoder.com/discuss/929911457448230912?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "date_mentions": [
+      "2026 年 9 月 11 日",
+      "2026 年 8 月 18 日",
+      "2026 年 8 月 15 日",
+      "2026 年 8 月 15 日",
+      "2026 年 6 月 5 日",
+      "2026 年 5 月 30 日",
+      "2026 年 5 月 1 日",
+      "2026 年 4 月 30 日",
+      "2026 年 4 月 30 日"
+    ],
+    "source_ref": "turn26view0",
+    "chars": 4543
+  },
+  {
+    "kind": "interview",
+    "title": "腾讯后端15",
+    "url": "https://api-cdn.nowcoder.com/discuss/931015079770746880?sourceSSR=dynamic",
+    "accessed_at": "2026-09-30",
+    "status": "blocked-or-partial",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn24view0",
+    "chars": 0
+  },
+  {
+    "kind": "interview",
+    "title": "后端全栈复盘",
+    "url": "https://api-cdn.nowcoder.com/discuss/932058602422956032?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn30view0",
+    "chars": 7484
+  },
+  {
+    "kind": "interview",
+    "title": "深轻二面",
+    "url": "https://api-cdn.nowcoder.com/discuss/931897300308226048?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn11view0",
+    "chars": 339
+  },
+  {
+    "kind": "interview",
+    "title": "实在智能",
+    "url": "https://www.nowcoder.com/feed/main/detail/06595dc27127476c9b544d20eb99cfe8?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Java并发",
+      "Docker",
+      "AI/RAG"
+    ],
+    "date_mentions": [
+      "2026.7.9"
+    ],
+    "source_ref": "turn23view0",
+    "chars": 577
+  },
+  {
+    "kind": "interview",
+    "title": "小米 Java",
+    "url": "https://www.nowcoder.com/feed/main/detail/ec9340e947aa4613a284688e00ec4f5d",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn31view0",
+    "chars": 753
+  },
+  {
+    "kind": "interview",
+    "title": "字节实习 Java",
+    "url": "https://www.nowcoder.com/feed/main/detail/c1448c65b644471e9db872852b4978ce",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn17view0",
+    "chars": 268
+  },
+  {
+    "kind": "interview",
+    "title": "趣链 Java",
+    "url": "https://api-cdn.nowcoder.com/discuss/929042072709918720?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "Docker",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn20view0",
+    "chars": 2536
+  },
+  {
+    "kind": "interview",
+    "title": "字节后端08",
+    "url": "https://api-cdn.nowcoder.com/discuss/922664655749648384?sourceSSR=post",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "MySQL",
+      "Redis",
+      "MQ",
+      "Java并发",
+      "JVM",
+      "AI/RAG"
+    ],
+    "date_mentions": [
+      "2026 年 4 月 26 日",
+      "2026 年 4 月 26 日",
+      "2026 年 4 月 26 日",
+      "2026 年 4 月 26 日",
+      "2026 年 4 月 24 日",
+      "2026 年 4 月 24 日",
+      "2026 年 4 月 24 日",
+      "2026 年 4 月 22 日",
+      "2026 年 4 月 22 日",
+      "2026 年 4 月 21 日",
+      "2026 年 4 月 21 日",
+      "2026 年 4 月 21 日"
+    ],
+    "source_ref": "turn12view0",
+    "chars": 4836
+  },
+  {
+    "kind": "resume",
+    "title": "点评42",
+    "url": "https://www.nowcoder.com/feed/main/detail/59cf37e96a094e5298081a8f67fb9772",
+    "accessed_at": "2026-09-30",
+    "status": "blocked-or-partial",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn21view0",
+    "chars": 0
+  },
+  {
+    "kind": "resume",
+    "title": "点评2",
+    "url": "https://www.nowcoder.com/feed/main/detail/18b2a788c36b4f708ad206522da0f0a3",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Redis",
+      "MQ",
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn25view0",
+    "chars": 912
+  },
+  {
+    "kind": "resume",
+    "title": "简历怎么写",
+    "url": "https://www.nowcoder.com/feed/main/detail/4634de77e8bf4e55ad15dbe46da07611",
+    "accessed_at": "2026-09-30",
+    "status": "blocked-or-partial",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn28view0",
+    "chars": 0
+  },
+  {
+    "kind": "resume",
+    "title": "点评11",
+    "url": "https://www.nowcoder.com/feed/main/detail/59239fbe7d69479c887b2f00c9cece81",
+    "accessed_at": "2026-09-30",
+    "status": "body-accessible",
+    "terms": [
+      "Java并发",
+      "AI/RAG"
+    ],
+    "date_mentions": [],
+    "source_ref": "turn29view0",
+    "chars": 1004
+  },
+  {
+    "kind": "resume",
+    "title": "点评9",
+    "url": "https://www.nowcoder.com/feed/main/detail/6ba4e496c91e41ff88f75bee9380b6f9",
+    "accessed_at": "2026-09-30",
+    "status": "blocked-or-partial",
+    "terms": [],
+    "date_mentions": [],
+    "source_ref": "turn32view0",
+    "chars": 0
+  }
+]

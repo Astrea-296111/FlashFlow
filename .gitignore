@@ -1,0 +1,10 @@
+target/
+.env
+.local/
+*.log
+.idea/
+.vscode/
+benchmark/results/tmp/
+benchmark/.auth.json
+__pycache__/
+*.pyc

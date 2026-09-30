@@ -1,0 +1,14 @@
+{
+  "sku_id": 2,
+  "total_stock": 100,
+  "available_stock": 0,
+  "orders": 100,
+  "active_orders": 100,
+  "oversell": 0,
+  "duplicate_orders": 0,
+  "conservation": true,
+  "db_nonnegative": true,
+  "accepted_requests": 100,
+  "all_accepted_committed": true,
+  "load_exit_code": 0
+}

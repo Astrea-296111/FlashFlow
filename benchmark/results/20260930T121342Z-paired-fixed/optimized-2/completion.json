@@ -1,0 +1,908 @@
+{
+  "observations": [
+    {
+      "rid": "6-2abdc1db-fbca-4818-8841-d9def49f9327",
+      "uid": 2,
+      "start_ms": 1790770434042,
+      "entry_ms": 38.854842,
+      "status": 202,
+      "observed_commit_ms": 1790770434169.276,
+      "completion_ms": 127.27587890625
+    },
+    {
+      "rid": "6-0433a4b9-840e-46ed-aa39-967b881838e9",
+      "uid": 19,
+      "start_ms": 1790770434043,
+      "entry_ms": 38.968724,
+      "status": 202,
+      "observed_commit_ms": 1790770434143.1384,
+      "completion_ms": 100.138427734375
+    },
+    {
+      "rid": "6-d7af3f8a-e758-4653-9675-806a4fb21a96",
+      "uid": 12,
+      "start_ms": 1790770434042,
+      "entry_ms": 39.924458,
+      "status": 202,
+      "observed_commit_ms": 1790770434227.4067,
+      "completion_ms": 185.40673828125
+    },
+    {
+      "rid": "6-b3e49c23-3db7-4813-896a-ade5d1449b8c",
+      "uid": 21,
+      "start_ms": 1790770434043,
+      "entry_ms": 40.033855,
+      "status": 202,
+      "observed_commit_ms": 1790770434227.4067,
+      "completion_ms": 184.40673828125
+    },
+    {
+      "rid": "6-8b6d9e64-5b05-4dee-8c04-ce91ef13ee82",
+      "uid": 16,
+      "start_ms": 1790770434042,
+      "entry_ms": 42.781558,
+      "status": 202,
+      "observed_commit_ms": 1790770434115.2322,
+      "completion_ms": 73.232177734375
+    },
+    {
+      "rid": "6-2d706341-8f7b-44f7-a688-c291c4e4b1b1",
+      "uid": 34,
+      "start_ms": 1790770434044,
+      "entry_ms": 47.724843,
+      "status": 202,
+      "observed_commit_ms": 1790770434537.6929,
+      "completion_ms": 493.69287109375
+    },
+    {
+      "rid": "6-2dc0e11b-be2a-4abf-b000-aa4b42232161",
+      "uid": 13,
+      "start_ms": 1790770434042,
+      "entry_ms": 49.141974,
+      "status": 202,
+      "observed_commit_ms": 1790770434334.4514,
+      "completion_ms": 292.451416015625
+    },
+    {
+      "rid": "6-a71018ad-9045-48d9-a484-a1c75759b697",
+      "uid": 26,
+      "start_ms": 1790770434043,
+      "entry_ms": 49.322092,
+      "status": 202,
+      "observed_commit_ms": 1790770434477.3738,
+      "completion_ms": 434.373779296875
+    },
+    {
+      "rid": "6-220b88b7-2cbe-4e25-98f0-65be66a4d979",
+      "uid": 20,
+      "start_ms": 1790770434043,
+      "entry_ms": 50.556453,
+      "status": 202,
+      "observed_commit_ms": 1790770434308.7466,
+      "completion_ms": 265.74658203125
+    },
+    {
+      "rid": "6-e3e6d651-6020-46a6-82a1-4f1500566d05",
+      "uid": 15,
+      "start_ms": 1790770434042,
+      "entry_ms": 50.476868,
+      "status": 202,
+      "observed_commit_ms": 1790770434274.8262,
+      "completion_ms": 232.826171875
+    },
+    {
+      "rid": "6-6eed3aab-0526-4577-9931-5282887c5ed2",
+      "uid": 17,
+      "start_ms": 1790770434042,
+      "entry_ms": 52.367102,
+      "status": 202,
+      "observed_commit_ms": 1790770434420.5347,
+      "completion_ms": 378.53466796875
+    },
+    {
+      "rid": "6-c77486a1-a57c-41b3-be57-ff3876399c26",
+      "uid": 29,
+      "start_ms": 1790770434044,
+      "entry_ms": 51.266932,
+      "status": 202,
+      "observed_commit_ms": 1790770434394.831,
+      "completion_ms": 350.8310546875
+    },
+    {
+      "rid": "6-a476f290-c1a1-422f-af4f-c5323a44ccbd",
+      "uid": 18,
+      "start_ms": 1790770434042,
+      "entry_ms": 54.187172,
+      "status": 202,
+      "observed_commit_ms": 1790770434394.831,
+      "completion_ms": 352.8310546875
+    },
+    {
+      "rid": "6-3413ba2a-e8f5-433b-8c19-fb91574cdb75",
+      "uid": 14,
+      "start_ms": 1790770434042,
+      "entry_ms": 54.60364,
+      "status": 202,
+      "observed_commit_ms": 1790770434334.4514,
+      "completion_ms": 292.451416015625
+    },
+    {
+      "rid": "6-1d93214c-935d-4114-9559-efbb60f00285",
+      "uid": 22,
+      "start_ms": 1790770434043,
+      "entry_ms": 56.50061,
+      "status": 202,
+      "observed_commit_ms": 1790770434537.6929,
+      "completion_ms": 494.69287109375
+    },
+    {
+      "rid": "6-cdd7e1e7-c552-4bbf-afd5-e20fb1d36b69",
+      "uid": 27,
+      "start_ms": 1790770434044,
+      "entry_ms": 67.932985,
+      "status": 202,
+      "observed_commit_ms": 1790770434565.5781,
+      "completion_ms": 521.578125
+    },
+    {
+      "rid": "6-78a93211-91f6-4e51-9095-f77e1914678d",
+      "uid": 30,
+      "start_ms": 1790770434044,
+      "entry_ms": 70.109681,
+      "status": 202,
+      "observed_commit_ms": 1790770434591.4233,
+      "completion_ms": 547.42333984375
+    },
+    {
+      "rid": "6-751c3f0c-5fa4-4828-9443-38cdbe1f3d44",
+      "uid": 31,
+      "start_ms": 1790770434044,
+      "entry_ms": 77.676715,
+      "status": 202,
+      "observed_commit_ms": 1790770434675.3762,
+      "completion_ms": 631.376220703125
+    },
+    {
+      "rid": "6-fa0e9923-d80d-4b93-9e88-7023482677d5",
+      "uid": 36,
+      "start_ms": 1790770434044,
+      "entry_ms": 77.623823,
+      "status": 202,
+      "observed_commit_ms": 1790770434730.7356,
+      "completion_ms": 686.735595703125
+    },
+    {
+      "rid": "6-a818b20b-664b-4df8-9e70-c3cc8f7cf2c1",
+      "uid": 25,
+      "start_ms": 1790770434043,
+      "entry_ms": 79.134202,
+      "status": 202,
+      "observed_commit_ms": 1790770434619.3643,
+      "completion_ms": 576.3642578125
+    },
+    {
+      "rid": "6-8dcaef8f-4df2-4d83-b46b-036aeb185358",
+      "uid": 10,
+      "start_ms": 1790770434042,
+      "entry_ms": 81.127271,
+      "status": 202,
+      "observed_commit_ms": 1790770434901.2502,
+      "completion_ms": 859.250244140625
+    },
+    {
+      "rid": "6-881552b9-05d2-477a-99eb-44d6c305df19",
+      "uid": 40,
+      "start_ms": 1790770434045,
+      "entry_ms": 81.076659,
+      "status": 202,
+      "observed_commit_ms": 1790770435139.5698,
+      "completion_ms": 1094.56982421875
+    },
+    {
+      "rid": "6-5425d2f6-0e1b-4506-8e2e-8a54710ca447",
+      "uid": 23,
+      "start_ms": 1790770434043,
+      "entry_ms": 83.030932,
+      "status": 202,
+      "observed_commit_ms": 1790770434645.231,
+      "completion_ms": 602.23095703125
+    },
+    {
+      "rid": "6-1bf87b4c-1c8a-439d-8069-cc3408cf0e86",
+      "uid": 35,
+      "start_ms": 1790770434044,
+      "entry_ms": 82.121753,
+      "status": 202,
+      "observed_commit_ms": 1790770434809.5784,
+      "completion_ms": 765.578369140625
+    },
+    {
+      "rid": "6-2126a39f-983c-440d-8a7e-556b406e964d",
+      "uid": 32,
+      "start_ms": 1790770434044,
+      "entry_ms": 81.104013,
+      "status": 202,
+      "observed_commit_ms": 1790770434537.6929,
+      "completion_ms": 493.69287109375
+    },
+    {
+      "rid": "6-3fc6a468-908a-4e49-a2f5-8675fd017981",
+      "uid": 3,
+      "start_ms": 1790770434044,
+      "entry_ms": 86.759188,
+      "status": 202,
+      "observed_commit_ms": 1790770434675.3762,
+      "completion_ms": 631.376220703125
+    },
+    {
+      "rid": "6-64fe5ad9-0150-4aad-beb1-1911f48a6a84",
+      "uid": 28,
+      "start_ms": 1790770434044,
+      "entry_ms": 86.993302,
+      "status": 202,
+      "observed_commit_ms": 1790770434809.5784,
+      "completion_ms": 765.578369140625
+    },
+    {
+      "rid": "6-a6465fb3-637f-47e5-93b2-c8267c754304",
+      "uid": 41,
+      "start_ms": 1790770434045,
+      "entry_ms": 86.117313,
+      "status": 202,
+      "observed_commit_ms": 1790770435113.3777,
+      "completion_ms": 1068.377685546875
+    },
+    {
+      "rid": "6-c8ec68b6-ee73-46be-8b9f-55e1c79ef84e",
+      "uid": 39,
+      "start_ms": 1790770434045,
+      "entry_ms": 87.023816,
+      "status": 202,
+      "observed_commit_ms": 1790770435057.6826,
+      "completion_ms": 1012.6826171875
+    },
+    {
+      "rid": "6-de9e078c-0a1f-4ae1-bfab-78ffbc41c4ec",
+      "uid": 37,
+      "start_ms": 1790770434045,
+      "entry_ms": 87.467199,
+      "status": 202,
+      "observed_commit_ms": 1790770434927.4124,
+      "completion_ms": 882.412353515625
+    },
+    {
+      "rid": "6-4b21dd41-9ae5-4519-9e7c-40ab6aa0abba",
+      "uid": 33,
+      "start_ms": 1790770434044,
+      "entry_ms": 86.968463,
+      "status": 202,
+      "observed_commit_ms": 1790770434645.231,
+      "completion_ms": 601.23095703125
+    },
+    {
+      "rid": "6-caff12e1-b2df-4a7e-abbb-16bda37d4ff9",
+      "uid": 24,
+      "start_ms": 1790770434043,
+      "entry_ms": 89.23469,
+      "status": 202,
+      "observed_commit_ms": 1790770434704.3115,
+      "completion_ms": 661.3115234375
+    },
+    {
+      "rid": "6-d03a9e4c-2f74-47ed-b694-32c3e7fd994d",
+      "uid": 11,
+      "start_ms": 1790770434042,
+      "entry_ms": 87.725319,
+      "status": 202,
+      "observed_commit_ms": 1790770435025.3882,
+      "completion_ms": 983.38818359375
+    },
+    {
+      "rid": "6-555ec80e-c193-4a0f-8c09-e1b21999616f",
+      "uid": 43,
+      "start_ms": 1790770434045,
+      "entry_ms": 86.023667,
+      "status": 202,
+      "observed_commit_ms": 1790770434966.8271,
+      "completion_ms": 921.8271484375
+    },
+    {
+      "rid": "6-69a13897-ab32-434e-8c33-3b086d104965",
+      "uid": 8,
+      "start_ms": 1790770434042,
+      "entry_ms": 82.137604,
+      "status": 202,
+      "observed_commit_ms": 1790770434966.8271,
+      "completion_ms": 924.8271484375
+    },
+    {
+      "rid": "6-3f718bbb-2301-4c46-a56f-69d17445c2b7",
+      "uid": 38,
+      "start_ms": 1790770434045,
+      "entry_ms": 96.998224,
+      "status": 202,
+      "observed_commit_ms": 1790770435262.741,
+      "completion_ms": 1217.740966796875
+    },
+    {
+      "rid": "6-fc12748e-db51-4cb3-959a-df89d6ed1e4a",
+      "uid": 52,
+      "start_ms": 1790770434094,
+      "entry_ms": 48.110749,
+      "status": 202,
+      "observed_commit_ms": 1790770435581.878,
+      "completion_ms": 1487.8779296875
+    },
+    {
+      "rid": "6-4ff9d116-9a0b-46a0-a49b-64a36fc481f9",
+      "uid": 51,
+      "start_ms": 1790770434093,
+      "entry_ms": 49.531334,
+      "status": 202,
+      "observed_commit_ms": 1790770435555.5598,
+      "completion_ms": 1462.559814453125
+    },
+    {
+      "rid": "6-560150c4-db44-4bef-a54a-4a9c12ccdfd9",
+      "uid": 7,
+      "start_ms": 1790770434042,
+      "entry_ms": 97.688587,
+      "status": 202,
+      "observed_commit_ms": 1790770435262.741,
+      "completion_ms": 1220.740966796875
+    },
+    {
+      "rid": "6-fdda7524-fab4-4f49-836c-78f13e7b91ba",
+      "uid": 45,
+      "start_ms": 1790770434084,
+      "entry_ms": 59.283571,
+      "status": 202,
+      "observed_commit_ms": 1790770435470.8074,
+      "completion_ms": 1386.807373046875
+    },
+    {
+      "rid": "6-13d57d16-fc98-4efd-b51d-095c840247eb",
+      "uid": 9,
+      "start_ms": 1790770434042,
+      "entry_ms": 97.76591,
+      "status": 202,
+      "observed_commit_ms": 1790770435200.084,
+      "completion_ms": 1158.083984375
+    },
+    {
+      "rid": "6-36f526c5-ab23-47d3-9932-1eda7f45888b",
+      "uid": 50,
+      "start_ms": 1790770434093,
+      "entry_ms": 49.858348,
+      "status": 202,
+      "observed_commit_ms": 1790770435497.8662,
+      "completion_ms": 1404.8662109375
+    },
+    {
+      "rid": "6-715bc058-f0f8-49f5-a7d0-89c3e4e56042",
+      "uid": 47,
+      "start_ms": 1790770434084,
+      "entry_ms": 58.769464,
+      "status": 202,
+      "observed_commit_ms": 1790770435235.5508,
+      "completion_ms": 1151.55078125
+    },
+    {
+      "rid": "6-fa0afe6d-a489-450d-80d1-443c15c49c85",
+      "uid": 48,
+      "start_ms": 1790770434086,
+      "entry_ms": 57.270274,
+      "status": 202,
+      "observed_commit_ms": 1790770435084.1995,
+      "completion_ms": 998.199462890625
+    },
+    {
+      "rid": "6-c62a630c-8257-4604-aebe-2109ba534710",
+      "uid": 6,
+      "start_ms": 1790770434044,
+      "entry_ms": 98.795957,
+      "status": 202,
+      "observed_commit_ms": 1790770435166.0718,
+      "completion_ms": 1122.07177734375
+    },
+    {
+      "rid": "6-ffd8c3ed-4f2e-4035-8601-b5ef954540c1",
+      "uid": 42,
+      "start_ms": 1790770434045,
+      "entry_ms": 98.154448,
+      "status": 202,
+      "observed_commit_ms": 1790770435289.9375,
+      "completion_ms": 1244.9375
+    },
+    {
+      "rid": "6-d0248f4f-4d26-4591-ba98-5c8e401b1dd0",
+      "uid": 46,
+      "start_ms": 1790770434083,
+      "entry_ms": 60.10017,
+      "status": 202,
+      "observed_commit_ms": 1790770435327.6775,
+      "completion_ms": 1244.677490234375
+    },
+    {
+      "rid": "6-a1ebf9bc-7d89-4988-a552-c6decca07ef7",
+      "uid": 44,
+      "start_ms": 1790770434082,
+      "entry_ms": 59.320198,
+      "status": 202,
+      "observed_commit_ms": 1790770435581.878,
+      "completion_ms": 1499.8779296875
+    },
+    {
+      "rid": "6-d44ad26a-d12e-429f-82d7-63b78c954d58",
+      "uid": 57,
+      "start_ms": 1790770434098,
+      "entry_ms": 47.647629,
+      "status": 202,
+      "observed_commit_ms": 1790770435555.5598,
+      "completion_ms": 1457.559814453125
+    },
+    {
+      "rid": "6-e77a6d06-de26-4918-82cb-b45f240f08a6",
+      "uid": 58,
+      "start_ms": 1790770434100,
+      "entry_ms": 45.032539,
+      "status": 202,
+      "observed_commit_ms": 1790770435614.0305,
+      "completion_ms": 1514.030517578125
+    },
+    {
+      "rid": "6-6fb2fc63-8d23-4e18-b64f-ed83052a258a",
+      "uid": 55,
+      "start_ms": 1790770434096,
+      "entry_ms": 50.343064,
+      "status": 202,
+      "observed_commit_ms": 1790770435642.6318,
+      "completion_ms": 1546.6318359375
+    },
+    {
+      "rid": "6-c9ab61d8-2aa6-4dd0-b547-a14b4a1946ce",
+      "uid": 53,
+      "start_ms": 1790770434095,
+      "entry_ms": 53.453209,
+      "status": 202,
+      "observed_commit_ms": 1790770435614.0305,
+      "completion_ms": 1519.030517578125
+    },
+    {
+      "rid": "6-e8abf485-8322-4e9f-ac63-a160f11cce77",
+      "uid": 49,
+      "start_ms": 1790770434092,
+      "entry_ms": 57.386195,
+      "status": 202,
+      "observed_commit_ms": 1790770435406.5864,
+      "completion_ms": 1314.58642578125
+    },
+    {
+      "rid": "6-d930c5f3-b0aa-48a8-bb53-7584b93a9e01",
+      "uid": 60,
+      "start_ms": 1790770434117,
+      "entry_ms": 41.226974,
+      "status": 202,
+      "observed_commit_ms": 1790770435669.944,
+      "completion_ms": 1552.944091796875
+    },
+    {
+      "rid": "6-c13e6d18-8b96-414c-a2aa-4e70a17d5edb",
+      "uid": 61,
+      "start_ms": 1790770434122,
+      "entry_ms": 36.278271,
+      "status": 202,
+      "observed_commit_ms": 1790770435642.6318,
+      "completion_ms": 1520.6318359375
+    },
+    {
+      "rid": "6-9d985eb6-22ae-4400-aff0-e326e16c8996",
+      "uid": 59,
+      "start_ms": 1790770434112,
+      "entry_ms": 46.300897,
+      "status": 202,
+      "observed_commit_ms": 1790770435696.3755,
+      "completion_ms": 1584.37548828125
+    },
+    {
+      "rid": "6-7ad4a0c5-46d9-4164-8b15-a01ac95a8d21",
+      "uid": 54,
+      "start_ms": 1790770434095,
+      "entry_ms": 64.911167,
+      "status": 202,
+      "observed_commit_ms": 1790770435614.0305,
+      "completion_ms": 1519.030517578125
+    },
+    {
+      "rid": "6-6433b386-5b62-403d-958f-e227db0f4f96",
+      "uid": 66,
+      "start_ms": 1790770434127,
+      "entry_ms": 33.76412,
+      "status": 202,
+      "observed_commit_ms": 1790770435642.6318,
+      "completion_ms": 1515.6318359375
+    },
+    {
+      "rid": "6-3b111cba-9908-4f78-a1d7-419cac8149de",
+      "uid": 68,
+      "start_ms": 1790770434127,
+      "entry_ms": 34.081434,
+      "status": 202,
+      "observed_commit_ms": 1790770435669.944,
+      "completion_ms": 1542.944091796875
+    },
+    {
+      "rid": "6-24d4872b-204e-4352-bc9a-5113e829bd84",
+      "uid": 62,
+      "start_ms": 1790770434123,
+      "entry_ms": 39.089925,
+      "status": 202,
+      "observed_commit_ms": 1790770435642.6318,
+      "completion_ms": 1519.6318359375
+    },
+    {
+      "rid": "6-1bf5fcc8-b5d0-4002-86fd-8bc78e0b41e5",
+      "uid": 56,
+      "start_ms": 1790770434097,
+      "entry_ms": 68.230475,
+      "status": 202,
+      "observed_commit_ms": 1790770435669.944,
+      "completion_ms": 1572.944091796875
+    },
+    {
+      "rid": "6-9da9fa2f-635a-4888-a10e-6e0feb0608f8",
+      "uid": 63,
+      "start_ms": 1790770434123,
+      "entry_ms": 42.51401,
+      "status": 202,
+      "observed_commit_ms": 1790770435696.3755,
+      "completion_ms": 1573.37548828125
+    },
+    {
+      "rid": "6-0ba87515-ee17-467e-840a-99869bf08bd6",
+      "uid": 65,
+      "start_ms": 1790770434127,
+      "entry_ms": 39.107532,
+      "status": 202,
+      "observed_commit_ms": 1790770435669.944,
+      "completion_ms": 1542.944091796875
+    },
+    {
+      "rid": "6-42dd54ea-fb3e-42f2-b9f5-d7b1a0d74ff7",
+      "uid": 67,
+      "start_ms": 1790770434127,
+      "entry_ms": 40.390999,
+      "status": 202,
+      "observed_commit_ms": 1790770435696.3755,
+      "completion_ms": 1569.37548828125
+    },
+    {
+      "rid": "6-57a93448-c030-4e9a-9131-ae0deb0e9ef1",
+      "uid": 64,
+      "start_ms": 1790770434126,
+      "entry_ms": 52.887667,
+      "status": 202,
+      "observed_commit_ms": 1790770435900.4768,
+      "completion_ms": 1774.476806640625
+    },
+    {
+      "rid": "6-d8263265-1044-45b5-9983-9f3526016d62",
+      "uid": 69,
+      "start_ms": 1790770434132,
+      "entry_ms": 49.626629,
+      "status": 202,
+      "observed_commit_ms": 1790770435864.1636,
+      "completion_ms": 1732.16357421875
+    },
+    {
+      "rid": "6-0ff234fa-2b56-49e8-b278-08f8ce5ca3b3",
+      "uid": 70,
+      "start_ms": 1790770434132,
+      "entry_ms": 53.04682,
+      "status": 202,
+      "observed_commit_ms": 1790770435811.7585,
+      "completion_ms": 1679.758544921875
+    },
+    {
+      "rid": "6-88ad8676-e828-40b7-8d1f-b7ea9a969ef0",
+      "uid": 76,
+      "start_ms": 1790770434134,
+      "entry_ms": 56.278519,
+      "status": 202,
+      "observed_commit_ms": 1790770435727.2,
+      "completion_ms": 1593.199951171875
+    },
+    {
+      "rid": "6-c271537b-a071-4d0d-a0dd-b9330ed78de5",
+      "uid": 83,
+      "start_ms": 1790770434143,
+      "entry_ms": 47.07649,
+      "status": 202,
+      "observed_commit_ms": 1790770435696.3755,
+      "completion_ms": 1553.37548828125
+    },
+    {
+      "rid": "6-c89db7e5-405a-46ad-b454-5be71a0e609c",
+      "uid": 80,
+      "start_ms": 1790770434143,
+      "entry_ms": 47.543066,
+      "status": 202,
+      "observed_commit_ms": 1790770435783.127,
+      "completion_ms": 1640.126953125
+    },
+    {
+      "rid": "6-bfe1a0f3-de01-46d6-bc73-c7af858f8ae3",
+      "uid": 77,
+      "start_ms": 1790770434134,
+      "entry_ms": 56.846046,
+      "status": 202,
+      "observed_commit_ms": 1790770435838.249,
+      "completion_ms": 1704.2490234375
+    },
+    {
+      "rid": "6-95500d64-58a2-4174-983c-5621cde72c0f",
+      "uid": 85,
+      "start_ms": 1790770434143,
+      "entry_ms": 47.319455,
+      "status": 202,
+      "observed_commit_ms": 1790770435927.708,
+      "completion_ms": 1784.7080078125
+    },
+    {
+      "rid": "6-c5c10573-69dc-4d84-8630-4d85aef0c7c3",
+      "uid": 74,
+      "start_ms": 1790770434133,
+      "entry_ms": 57.977524,
+      "status": 202,
+      "observed_commit_ms": 1790770435811.7585,
+      "completion_ms": 1678.758544921875
+    },
+    {
+      "rid": "6-ca425b20-95ad-4c51-b591-9d99a3ed591e",
+      "uid": 71,
+      "start_ms": 1790770434132,
+      "entry_ms": 58.655916,
+      "status": 202,
+      "observed_commit_ms": 1790770435838.249,
+      "completion_ms": 1706.2490234375
+    },
+    {
+      "rid": "6-d60be6d1-4618-446f-907f-eba5a5ecb322",
+      "uid": 73,
+      "start_ms": 1790770434133,
+      "entry_ms": 58.511389,
+      "status": 202,
+      "observed_commit_ms": 1790770435783.127,
+      "completion_ms": 1650.126953125
+    },
+    {
+      "rid": "6-e40e7c29-025e-499b-b2f0-eb7318870e1a",
+      "uid": 78,
+      "start_ms": 1790770434134,
+      "entry_ms": 58.105197,
+      "status": 202,
+      "observed_commit_ms": 1790770435753.44,
+      "completion_ms": 1619.43994140625
+    },
+    {
+      "rid": "6-bd093d18-a13d-463d-9997-cd409fb39850",
+      "uid": 79,
+      "start_ms": 1790770434143,
+      "entry_ms": 50.391071,
+      "status": 202,
+      "observed_commit_ms": 1790770435783.127,
+      "completion_ms": 1640.126953125
+    },
+    {
+      "rid": "6-1e7564aa-7dd2-4010-a25a-5dd0a5b79e6e",
+      "uid": 75,
+      "start_ms": 1790770434133,
+      "entry_ms": 60.025098,
+      "status": 202,
+      "observed_commit_ms": 1790770435811.7585,
+      "completion_ms": 1678.758544921875
+    },
+    {
+      "rid": "6-5a8e707a-0bed-4500-9669-23e650c1c9bc",
+      "uid": 72,
+      "start_ms": 1790770434132,
+      "entry_ms": 61.957437,
+      "status": 202,
+      "observed_commit_ms": 1790770435927.708,
+      "completion_ms": 1795.7080078125
+    },
+    {
+      "rid": "6-94209a5a-4e1f-4e83-ba24-e5349855bbb1",
+      "uid": 86,
+      "start_ms": 1790770434143,
+      "entry_ms": 51.047438,
+      "status": 202,
+      "observed_commit_ms": 1790770435811.7585,
+      "completion_ms": 1668.758544921875
+    },
+    {
+      "rid": "6-f88dbde5-77b8-4dab-9b3e-71e33d244805",
+      "uid": 102,
+      "start_ms": 1790770434162,
+      "entry_ms": 41.610297,
+      "status": 202,
+      "observed_commit_ms": 1790770436032.6697,
+      "completion_ms": 1870.669677734375
+    },
+    {
+      "rid": "6-f671bff2-d7fb-4902-a79d-7c60abc2f50d",
+      "uid": 96,
+      "start_ms": 1790770434150,
+      "entry_ms": 53.498837,
+      "status": 202,
+      "observed_commit_ms": 1790770436101.7148,
+      "completion_ms": 1951.71484375
+    },
+    {
+      "rid": "6-c7f385e5-ab30-44f0-8843-a2ca283c021c",
+      "uid": 90,
+      "start_ms": 1790770434143,
+      "entry_ms": 59.222426,
+      "status": 202,
+      "observed_commit_ms": 1790770436005.824,
+      "completion_ms": 1862.823974609375
+    },
+    {
+      "rid": "6-fef8965b-7471-4d42-aae2-f4eb4b7528c9",
+      "uid": 98,
+      "start_ms": 1790770434159,
+      "entry_ms": 45.132728,
+      "status": 202,
+      "observed_commit_ms": 1790770436129.536,
+      "completion_ms": 1970.535888671875
+    },
+    {
+      "rid": "6-80965668-8f8a-4605-a744-7e54aca38397",
+      "uid": 91,
+      "start_ms": 1790770434145,
+      "entry_ms": 59.24475,
+      "status": 202,
+      "observed_commit_ms": 1790770435979.5752,
+      "completion_ms": 1834.5751953125
+    },
+    {
+      "rid": "6-d0ea02b8-2465-4f37-96d3-09a715c83292",
+      "uid": 92,
+      "start_ms": 1790770434146,
+      "entry_ms": 58.802534,
+      "status": 202,
+      "observed_commit_ms": 1790770435953.5166,
+      "completion_ms": 1807.5166015625
+    },
+    {
+      "rid": "6-3121f5b9-d34e-4a3e-bc37-15eb8752f1a9",
+      "uid": 99,
+      "start_ms": 1790770434159,
+      "entry_ms": 45.434862,
+      "status": 202,
+      "observed_commit_ms": 1790770436101.7148,
+      "completion_ms": 1942.71484375
+    },
+    {
+      "rid": "6-6efb4af4-5f01-4089-8281-aaa194a8e960",
+      "uid": 89,
+      "start_ms": 1790770434143,
+      "entry_ms": 61.395772,
+      "status": 202,
+      "observed_commit_ms": 1790770435864.1636,
+      "completion_ms": 1721.16357421875
+    },
+    {
+      "rid": "6-ace7dee0-f971-4e05-af09-2431197c7ea4",
+      "uid": 104,
+      "start_ms": 1790770434166,
+      "entry_ms": 39.19717,
+      "status": 202,
+      "observed_commit_ms": 1790770436101.7148,
+      "completion_ms": 1935.71484375
+    },
+    {
+      "rid": "6-d878204f-7f15-46f4-bb95-c3364132f31b",
+      "uid": 87,
+      "start_ms": 1790770434143,
+      "entry_ms": 61.935564,
+      "status": 202,
+      "observed_commit_ms": 1790770435979.5752,
+      "completion_ms": 1836.5751953125
+    },
+    {
+      "rid": "6-e7278d80-685d-4bba-8608-9d4debf5764f",
+      "uid": 81,
+      "start_ms": 1790770434143,
+      "entry_ms": 62.606129,
+      "status": 202,
+      "observed_commit_ms": 1790770436157.362,
+      "completion_ms": 2014.362060546875
+    },
+    {
+      "rid": "6-69047219-f695-4c03-8912-bfb78b3a187e",
+      "uid": 88,
+      "start_ms": 1790770434144,
+      "entry_ms": 62.040965,
+      "status": 202,
+      "observed_commit_ms": 1790770436032.6697,
+      "completion_ms": 1888.669677734375
+    },
+    {
+      "rid": "6-6e1abb57-0bd9-48c2-be56-c88893c630a7",
+      "uid": 97,
+      "start_ms": 1790770434159,
+      "entry_ms": 59.54981,
+      "status": 202,
+      "observed_commit_ms": 1790770436032.6697,
+      "completion_ms": 1873.669677734375
+    },
+    {
+      "rid": "6-a4f6b5fd-2286-43ba-a747-ceae8b5eb8a8",
+      "uid": 101,
+      "start_ms": 1790770434161,
+      "entry_ms": 57.743677,
+      "status": 202,
+      "observed_commit_ms": 1790770436157.362,
+      "completion_ms": 1996.362060546875
+    },
+    {
+      "rid": "6-b4598ce7-8933-493f-a387-38297435232c",
+      "uid": 95,
+      "start_ms": 1790770434149,
+      "entry_ms": 69.692031,
+      "status": 202,
+      "observed_commit_ms": 1790770436183.3208,
+      "completion_ms": 2034.32080078125
+    },
+    {
+      "rid": "6-849f3313-2abb-47a5-89d8-e75f75d12984",
+      "uid": 94,
+      "start_ms": 1790770434147,
+      "entry_ms": 73.188331,
+      "status": 202,
+      "observed_commit_ms": 1790770436129.536,
+      "completion_ms": 1982.535888671875
+    },
+    {
+      "rid": "6-85600f74-6dad-4006-afef-144e301fb54b",
+      "uid": 93,
+      "start_ms": 1790770434146,
+      "entry_ms": 75.311102,
+      "status": 202,
+      "observed_commit_ms": 1790770435953.5166,
+      "completion_ms": 1807.5166015625
+    },
+    {
+      "rid": "6-60cb2328-b8a3-4a64-a91e-81ea6fd2cf61",
+      "uid": 82,
+      "start_ms": 1790770434143,
+      "entry_ms": 78.24853,
+      "status": 202,
+      "observed_commit_ms": 1790770436069.0154,
+      "completion_ms": 1926.015380859375
+    },
+    {
+      "rid": "6-f99121a7-13bd-4361-907a-893780b1e011",
+      "uid": 84,
+      "start_ms": 1790770434143,
+      "entry_ms": 78.187593,
+      "status": 202,
+      "observed_commit_ms": 1790770435979.5752,
+      "completion_ms": 1836.5751953125
+    },
+    {
+      "rid": "6-cb759d01-bca3-4a40-adee-40a4f596f3b9",
+      "uid": 103,
+      "start_ms": 1790770434162,
+      "entry_ms": 58.16101,
+      "status": 202,
+      "observed_commit_ms": 1790770436157.362,
+      "completion_ms": 1995.362060546875
+    }
+  ],
+  "p50_ms": 1506.9542236328125,
+  "p95_ms": 1971.135888671875,
+  "p99_ms": 2014.561647949219,
+  "poll_interval_ms": 25
+}

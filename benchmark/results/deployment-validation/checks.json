@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-09-30T13:21:17.409887+00:00",
+  "compose_cli_version": "5.5.1",
+  "compose_config_quiet": "passed",
+  "docker_daemon_available": false,
+  "docker_image_build": "not executed",
+  "compose_full_startup": "not executed",
+  "maven_wrapper_spotless_check": "passed",
+  "compiled_probe_properties_launcher": "ACKNOWLEDGED messages=0 delayLevel=0; actual native Broker connection; no business messages emitted",
+  "remote_ci": "not run"
+}

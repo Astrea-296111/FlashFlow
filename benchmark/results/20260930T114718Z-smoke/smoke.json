@@ -1,0 +1,30 @@
+{
+  "sku_id": 1,
+  "total_stock": 2,
+  "available_stock": 1,
+  "orders": 1,
+  "active_orders": 1,
+  "oversell": 0,
+  "duplicate_orders": 0,
+  "conservation": true,
+  "db_nonnegative": true,
+  "real_broker": true,
+  "result": {
+    "status": "SUCCESS",
+    "reservationId": "1-a3c4d467-a04d-4115-b529-b8afa08000d0",
+    "delivery": "PERSISTED",
+    "orderNo": "854ae0c8-382b-4883-935e-f698aa4a4820"
+  },
+  "payment": {
+    "orderNo": "854ae0c8-382b-4883-935e-f698aa4a4820",
+    "reservationId": "1-a3c4d467-a04d-4115-b529-b8afa08000d0",
+    "userId": 2,
+    "eventId": 1,
+    "skuId": 1,
+    "amount": 99.0,
+    "status": "PAID",
+    "expireAt": "2026-09-30T11:57:18.109Z",
+    "createdAt": "2026-09-30T11:47:18.109Z"
+  },
+  "end_to_end_observed_s": 0.48234376899927156
+}

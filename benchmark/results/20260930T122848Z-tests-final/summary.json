@@ -1,0 +1,64 @@
+{
+  "execution_backend": "native MySQL 8.4.9 schema flashflow_it + Redis 7.4.2 DB1; MQ mocked in IT, real Broker tested separately",
+  "suites": [
+    {
+      "name": "com.astrea.flashflow.AsyncIT",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "7.051"
+    },
+    {
+      "name": "com.astrea.flashflow.BaselineIT",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "1.135"
+    },
+    {
+      "name": "com.astrea.flashflow.HttpIT",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "2.405"
+    },
+    {
+      "name": "com.astrea.flashflow.PaymentRaceIT",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "2.11"
+    },
+    {
+      "name": "com.astrea.flashflow.ProducerFailureIT",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "36.098"
+    },
+    {
+      "name": "com.astrea.flashflow.RedisIT",
+      "tests": "10",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "2.543"
+    },
+    {
+      "name": "com.astrea.flashflow.order.OrderStatusTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "0.809"
+    }
+  ],
+  "total": 42,
+  "failures": 0,
+  "errors": 0
+}

@@ -1,0 +1,63 @@
+{
+  "interval_s": 0.5,
+  "note": "Actuator process_cpu_usage is a sampled recent CPU ratio, not instantaneous peak or host utilization; sampling and observer overhead apply equally to both variants.",
+  "samples": [
+    {
+      "epoch_ms": 1790770993408.602,
+      "api": {
+        "process_cpu_usage": 0.1,
+        "jvm_memory_used_bytes": 136348416.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 89.0,
+        "jvm_gc_pause_seconds_count": 41.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.11875,
+        "jvm_memory_used_bytes": 72454936.0,
+        "hikaricp_connections_active": 3.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 98.0,
+        "jvm_gc_pause_seconds_count": 3.0
+      }
+    },
+    {
+      "epoch_ms": 1790770993997.4,
+      "api": {
+        "process_cpu_usage": 0.29583333333333334,
+        "jvm_memory_used_bytes": 55238472.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 89.0,
+        "jvm_gc_pause_seconds_count": 43.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.15416666666666667,
+        "jvm_memory_used_bytes": 80843544.0,
+        "hikaricp_connections_active": 3.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 98.0,
+        "jvm_gc_pause_seconds_count": 3.0
+      }
+    },
+    {
+      "epoch_ms": 1790770994629.7903,
+      "api": {
+        "process_cpu_usage": 0.44166666666666665,
+        "jvm_memory_used_bytes": 68116368.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 89.0,
+        "jvm_gc_pause_seconds_count": 45.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.10625,
+        "jvm_memory_used_bytes": 89232152.0,
+        "hikaricp_connections_active": 4.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 98.0,
+        "jvm_gc_pause_seconds_count": 3.0
+      }
+    }
+  ]
+}

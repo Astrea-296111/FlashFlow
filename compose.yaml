@@ -1,0 +1,98 @@
+services:
+  mysql:
+    image: mysql:8.4.9
+    environment:
+      MYSQL_DATABASE: flashflow
+      MYSQL_USER: flashflow
+      MYSQL_PASSWORD: ${DB_PASSWORD:-local-development-only}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-local-root-only}
+    ports: ["127.0.0.1:3306:3306"]
+    volumes: ["mysql-data:/var/lib/mysql"]
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  redis:
+    image: redis:7.4.2
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory-policy", "noeviction"]
+    ports: ["127.0.0.1:6379:6379"]
+    volumes: ["redis-data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  namesrv:
+    image: apache/rocketmq:5.3.3
+    command: sh mqnamesrv
+    environment: {JAVA_OPT_EXT: "-Xms128m -Xmx128m"}
+    ports: ["127.0.0.1:9876:9876"]
+  broker:
+    image: apache/rocketmq:5.3.3
+    command: sh mqbroker -n namesrv:9876 -c /opt/rocketmq/conf/flashflow.conf
+    depends_on: [namesrv]
+    environment: {JAVA_OPT_EXT: "-Xms256m -Xmx512m"}
+    volumes:
+      - ./deploy/rocketmq/broker.conf:/opt/rocketmq/conf/flashflow.conf:ro
+      - mq-data:/home/rocketmq/store
+  topics:
+    image: apache/rocketmq:5.3.3
+    depends_on: [broker]
+    entrypoint: ["/bin/sh", "/setup-topics.sh"]
+    volumes: ["./deploy/rocketmq/setup-topics.sh:/setup-topics.sh:ro"]
+    environment: {JAVA_OPT_EXT: "-Xms64m -Xmx128m"}
+  api:
+    build: .
+    image: flashflow:local
+    environment: &app-env
+      FLASHFLOW_ROLE: api
+      DB_URL: jdbc:mysql://mysql:3306/flashflow?connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true
+      DB_PASSWORD: ${DB_PASSWORD:-local-development-only}
+      REDIS_HOST: redis
+      MQ_NAMESERVER: namesrv:9876
+      JWT_SECRET: ${JWT_SECRET:-local-development-secret-change-this-32-bytes}
+      DEMO_ENABLED: "true"
+      DEMO_ADMIN_PASSWORD: ${DEMO_ADMIN_PASSWORD:-local-admin-only}
+      RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      CACHE_ENABLED: ${CACHE_ENABLED:-true}
+      PAYMENT_TTL: ${PAYMENT_TTL:-600}
+      SCHEDULING_ENABLED: ${SCHEDULING_ENABLED:-true}
+      JAVA_TOOL_OPTIONS: -Duser.home=/app -Xms128m -Xmx384m
+    ports: ["127.0.0.1:8080:8080"]
+    depends_on:
+      mysql: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      topics: {condition: service_completed_successfully}
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/127.0.0.1/8080'"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  worker:
+    build: .
+    image: flashflow:local
+    environment:
+      <<: *app-env
+      FLASHFLOW_ROLE: worker
+    ports: ["127.0.0.1:8081:8080"]
+    depends_on:
+      api: {condition: service_healthy}
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    profiles: [monitoring]
+    ports: ["127.0.0.1:9090:9090"]
+    volumes: ["./deploy/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+  grafana:
+    image: grafana/grafana:12.1.1
+    profiles: [monitoring]
+    ports: ["127.0.0.1:3000:3000"]
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-local-grafana-only}
+    volumes:
+      - ./deploy/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./deploy/grafana/dashboards:/var/lib/grafana/dashboards:ro
+volumes:
+  mysql-data:
+  redis-data:
+  mq-data:

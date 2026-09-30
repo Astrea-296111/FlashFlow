@@ -1,0 +1,120 @@
+{
+  "interval_s": 0.5,
+  "note": "Actuator process_cpu_usage is a sampled recent CPU ratio, not instantaneous peak or host utilization; sampling and observer overhead apply equally to both variants.",
+  "samples": [
+    {
+      "epoch_ms": 1790771437120.746,
+      "api": {
+        "process_cpu_usage": 0.25,
+        "jvm_memory_used_bytes": 80589792.0,
+        "hikaricp_connections_active": 16.0,
+        "hikaricp_connections_pending": 21.0,
+        "jvm_threads_live_threads": 76.0,
+        "jvm_gc_pause_seconds_count": 9.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.05,
+        "jvm_memory_used_bytes": 72761344.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 81.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    },
+    {
+      "epoch_ms": 1790771437675.783,
+      "api": {
+        "process_cpu_usage": 0.32916666666666666,
+        "jvm_memory_used_bytes": 113095648.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 87.0,
+        "jvm_gc_pause_seconds_count": 9.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.1875,
+        "jvm_memory_used_bytes": 85344256.0,
+        "hikaricp_connections_active": 4.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 85.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    },
+    {
+      "epoch_ms": 1790771438444.5522,
+      "api": {
+        "process_cpu_usage": 0.5890625,
+        "jvm_memory_used_bytes": 102264232.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 11.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.17916666666666667,
+        "jvm_memory_used_bytes": 88489984.0,
+        "hikaricp_connections_active": 4.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 85.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    },
+    {
+      "epoch_ms": 1790771439026.8472,
+      "api": {
+        "process_cpu_usage": 0.6520833333333333,
+        "jvm_memory_used_bytes": 99431840.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 13.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.13333333333333333,
+        "jvm_memory_used_bytes": 93732864.0,
+        "hikaricp_connections_active": 5.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 91.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    },
+    {
+      "epoch_ms": 1790771439694.7205,
+      "api": {
+        "process_cpu_usage": 0.5333333333333333,
+        "jvm_memory_used_bytes": 82788688.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 14.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.125,
+        "jvm_memory_used_bytes": 98975744.0,
+        "hikaricp_connections_active": 5.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 96.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    },
+    {
+      "epoch_ms": 1790771440498.5376,
+      "api": {
+        "process_cpu_usage": 0.10625,
+        "jvm_memory_used_bytes": 84885840.0,
+        "hikaricp_connections_active": 0.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 90.0,
+        "jvm_gc_pause_seconds_count": 14.0
+      },
+      "worker": {
+        "process_cpu_usage": 0.2833333333333333,
+        "jvm_memory_used_bytes": 108412928.0,
+        "hikaricp_connections_active": 3.0,
+        "hikaricp_connections_pending": 0.0,
+        "jvm_threads_live_threads": 96.0,
+        "jvm_gc_pause_seconds_count": 1.0
+      }
+    }
+  ]
+}

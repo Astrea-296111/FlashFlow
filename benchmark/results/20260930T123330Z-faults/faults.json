@@ -1,0 +1,36 @@
+{
+  "execution_backend": "native",
+  "scenarios": {
+    "worker_outage": {
+      "acknowledged_while_stopped": 20,
+      "orders_while_stopped": 0,
+      "recovery_including_jvm_start_s": 25.770029060000525,
+      "audit": {
+        "sku_id": 25,
+        "total_stock": 20,
+        "available_stock": 0,
+        "orders": 20,
+        "active_orders": 20,
+        "oversell": 0,
+        "duplicate_orders": 0,
+        "conservation": true,
+        "db_nonnegative": true
+      }
+    },
+    "duplicate_delivery": {
+      "additional_broker_acknowledged": 20,
+      "orders_for_reservation": 1,
+      "audit": {
+        "sku_id": 25,
+        "total_stock": 20,
+        "available_stock": 0,
+        "orders": 20,
+        "active_orders": 20,
+        "oversell": 0,
+        "duplicate_orders": 0,
+        "conservation": true,
+        "db_nonnegative": true
+      }
+    }
+  }
+}
