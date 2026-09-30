@@ -6,7 +6,7 @@
 
 ## 未完成或未验证
 
-GitHub 仓库当前 API 返回 404，本地无 remote，未发布或验证远端 CI/Release；连接器无创建仓库接口。环境缺少 Docker daemon，Compose 和镜像构建未实测。无真实支付、Cluster、分片、多实例、高可用、真实 Broker 网络断链测试。版本 v1.0.0 仅为预期发布版本。
+GitHub 公开仓库已创建并上传完整文件；远端 CI 已触发，最终结果以 Actions 为准。原始开发提交历史由 Release 附件 bundle 保留。环境缺少 Docker daemon，Compose 和镜像构建未实测。无真实支付、Cluster、分片、多实例、高可用、真实 Broker 网络断链测试。版本 v1.0.0 仅为预期发布版本。
 
 ## 技术栈与验收
 

@@ -1,6 +1,6 @@
 # FlashFlow
 
-![CI pending](https://img.shields.io/badge/CI-not_run-lightgrey)
+[![CI](https://github.com/Astrea-296111/FlashFlow/actions/workflows/ci.yml/badge.svg)](https://github.com/Astrea-296111/FlashFlow/actions/workflows/ci.yml)
 
 Java 高并发限量票务秒杀与交易履约系统。以可复现的测试和失败实验解释库存、幂等、消息可靠性与性能取舍，与 [RepoPilot](https://github.com/Astrea-296111/RepoPilot) 的 AI Agent/Benchmark 工程互补。
 
@@ -79,9 +79,9 @@ curl --fail http://localhost:8080/actuator/health
 
 Java 21 + Docker：`./mvnw -B spotless:check verify` 启动 Testcontainers 验证；重压测由 benchmark 工作流手动触发。当前环境无 Docker daemon，完整 Compose、镜像构建与远端 Actions 尚未实测；本次验收使用同版本原生中间件。
 
-管理账号 admin，默认演示密码 local-admin-only；按 .env.example 修改配置。Swagger http://localhost:8080/swagger-ui/index.html；API 8080、Worker Actuator 8081。登录 POST /api/v1/auth/login 后使用 Bearer token。创建活动/票档并 warm，再 POST /api/v1/seckill/{skuId}，轮询 GET /api/v1/seckill/result/{reservationId}，最后用 orderNo 模拟支付。完整请求与权限见 [API 手册](docs/08-api-and-runbook.md)。
+管理账号 admin，默认演示密码 local-admin-only；按 .env.example 修改配置。Swagger `http://localhost:8080/swagger-ui/index.html`；API 8080、Worker Actuator 8081。登录 POST /api/v1/auth/login 后使用 Bearer token。创建活动/票档并 warm，再 POST /api/v1/seckill/{skuId}，轮询 GET /api/v1/seckill/result/{reservationId}，最后用 orderNo 模拟支付。完整请求与权限见 [API 手册](docs/08-api-and-runbook.md)。
 
-监控：`docker compose --profile monitoring up -d`；Grafana http://localhost:3000，Prometheus http://localhost:9090，配置在 deploy/。业务正确性不能仅通过 HTTP 状态判断，需检查库存守恒审计。
+监控：`docker compose --profile monitoring up -d`；Grafana `http://localhost:3000`，Prometheus `http://localhost:9090`，配置在 deploy/。业务正确性不能仅通过 HTTP 状态判断，需检查库存守恒审计。
 
 ## 文档与学习
 
@@ -105,3 +105,7 @@ Java 21 + Docker：`./mvnw -B spotless:check verify` 启动 Testcontainers 验�
 2026-09-30：spotless 和 3 项单元测试通过。旧验收 42 项通过证据仍为 20260930T122848Z-tests-final。当前执行隔离环境无法连接此前启动的 localhost MySQL。尝试独立临时数据库时，MySQL 创建 UNIX socket 被运行限制拒绝。因此本轮完整 verify 未通过环境启动，不能声称已再次通过全部集成测试。
 
 初始 Mockito 动态 self-attach 失败已通过 Maven 显式 test javaagent 配置修复；再次运行推进到数据库连接阶段。提供失败日志用于区分业务失败与环境阻断，不替代原始成功验收。
+
+## GitHub 发布
+
+公开仓库已发布。远端提交由 GitHub API 导入完整源码树；原始分阶段开发历史保存在 Release 附件 FlashFlow-history.bundle，使用 `git clone FlashFlow-history.bundle FlashFlow-history` 查看。CI 状态以顶部动态徽章为准。
